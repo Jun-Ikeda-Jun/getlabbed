@@ -1,0 +1,17 @@
+{
+  "character": "bowser",
+  "display_name": "Bowser",
+  "tier": "B+",
+  "weight": 135,
+  "playstyle_summary": "全キャラ最重量のスーパーヘビー級。アーマー付きの技と圧倒的な撃墜力で相手を粉砕する。横Bのフライングスラムは掴み技で撃墜力が非常に高い。重量級トップの実力。",
+  "key_strengths": [
+    {"strength": "全キャラ最重量（135）", "explanation_friendly": "一番重いキャラ。めちゃくちゃ撃墜されにくい。", "explanation_detailed": "重量135は全キャラ中1位。横バースト・上バースト耐性がトップ。"},
+    {"strength": "タフアーマー", "explanation_friendly": "一定%以上で技にアーマーがつく。攻撃を受けても怯まずに技を出し切れる。", "explanation_detailed": "一部の技にタフアーマーあり。被ダメージが低%のときアーマーが発動し、相手の技を耐えながら攻撃可能。"},
+    {"strength": "横B（フライングスラム）の撃墜力", "explanation_friendly": "掴み技で高い位置から叩きつける。撃墜力が非常に高く、崖際では早期撃墜も。", "explanation_detailed": "横Bは掴み判定で、ヒット時に上昇→叩きつけ。地上ヒットで100%〜、崖外からの道連れ撃墜も可能。"}
+  ],
+  "key_weaknesses": [
+    {"weakness": "コンボ耐性が低い（体が大きい）", "explanation_friendly": "体が大きいから相手のコンボが全部入る。", "explanation_detailed": "ヒットボックスが大きく被コンボ耐性が低い。ただし重さで撃墜は遅れる。"},
+    {"weakness": "復帰がやや弱い", "explanation_friendly": "上Bの距離は普通だけど角度が読みやすい。", "explanation_detailed": "上B（ウィップクロー）は距離は中程度だが直線的で読まれやすい。"},
+    {"weakness": "小さいキャラに弱い", "explanation_friendly": "技のリーチは長いけど、小さい相手には当たらないこともある。", "explanation_detailed": "大振りな技が多いため、小型キャラ（ピカチュウ等）に対して空振りが増える。"}
+  ]
+}

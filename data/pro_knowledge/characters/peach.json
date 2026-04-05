@@ -1,0 +1,17 @@
+{
+  "character": "peach",
+  "display_name": "Peach / Daisy",
+  "tier": "A",
+  "weight": 89,
+  "playstyle_summary": "浮遊を活かした空中コンボが全キャラ最高火力クラス。カブ投げでの牽制とフロートからの空中攻撃で独自のリズムを作る。操作難度が高いが理論上の性能は非常に高い。",
+  "key_strengths": [
+    {"strength": "浮遊（フロート）からの空中コンボ", "explanation_friendly": "空中でホバリングできる特殊能力。低い高度で空中技を出せるからコンボがめちゃくちゃ伸びる。", "explanation_detailed": "フロートにより任意の高度で空中技を出せる。フロート空N→空前→空前等のコンボで0%から50-70%稼げる。"},
+    {"strength": "カブ投げ牽制", "explanation_friendly": "下Bでカブを抜いて投げられる。アイテムとしても使えて牽制が強い。", "explanation_detailed": "下B（野菜ひっこ抜き）はアイテム生成。投げてコンボ始動、牽制として使える。稀にボム兵等の特殊アイテムが出る。"},
+    {"strength": "コンボ火力", "explanation_friendly": "フロートコンボの火力は全キャラトップクラス。一度触れば大ダメージ。", "explanation_detailed": "フロート空中技のコンボが最高火力。理論値では0%から70%+も可能だが操作難度が非常に高い。"}
+  ],
+  "key_weaknesses": [
+    {"weakness": "操作難度が非常に高い", "explanation_friendly": "フロートの操作とコンボの両立が超難しい。使いこなすのに膨大な練習が必要。", "explanation_detailed": "フロート維持しながらの空中技入力、フロートキャンセル等の高度な操作が要求される。プレイヤー人口が少ない理由。"},
+    {"weakness": "撃墜力がやや不安定", "explanation_friendly": "コンボで大ダメージは稼げるけど、撃墜技を当てるのが難しい。", "explanation_detailed": "空後（130%〜）、横スマ（100%〜崖端）が主な撃墜手段だがリーチが短い。カブスマッシュ投げでの撃墜もあるが状況限定。"},
+    {"weakness": "機動力が遅め", "explanation_friendly": "走る速度が遅い。フロートで空中は強いけど地上は遅い。", "explanation_detailed": "走行速度1.595は下位クラス。フロートで空中機動力は補えるが、ダッシュでの接近が遅い。"}
+  ]
+}

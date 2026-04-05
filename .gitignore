@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/.env
+frontend/.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# E2E test artifacts (large)
+data/e2e_*.txt
+data/e2e_*.json
+
+# Temp files
+/tmp/
+*.tmp
+
+# Environment
+.env
+backend/.env
+--test/

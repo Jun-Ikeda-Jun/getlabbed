@@ -1,0 +1,17 @@
+{
+  "character": "donkey_kong",
+  "display_name": "Donkey Kong",
+  "tier": "C",
+  "weight": 127,
+  "playstyle_summary": "パワーと投げの破壊力で戦う重量級。cargo throw（前投げ/後ろ投げのステージ運び）で崖外に運んでの早期撃墜が最大の強み。体が大きくコンボを食らいやすいのが弱点。",
+  "key_strengths": [
+    {"strength": "cargo throwによる早期撃墜", "explanation_friendly": "前投げで相手を担いでステージ端まで運んでから投げると、めちゃくちゃ早い%で撃墜できる。60%くらいで死ぬこともある。", "explanation_detailed": "前投げ（cargo throw）はステージ端→前投げorジャンプ前投げで60-80%から���墜可能。崖端でのcargo前投げはDKの最強撃墜手段。"},
+    {"strength": "最重量級の耐久力", "explanation_friendly": "体重127は全キャラで2番目に重い。なかなか撃墜されない。", "explanation_detailed": "重量127はクッパに次ぐ2位。横バースト耐性が非常に高い。"},
+    {"strength": "空中技のパワー", "explanation_friendly": "空後（ドロップキック）が超強い。撃墜力もリーチも優秀。", "explanation_detailed": "空後は発生10F、リーチ・判定・撃墜力が全て高水準。空中から振れる最強クラスの壁技。"}
+  ],
+  "key_weaknesses": [
+    {"weakness": "体が大きくコンボを食らいやすい", "explanation_friendly": "体が超でかいから、みんなのコンボが全部当たる。普通は抜けられるコンボもDKには全部入る。", "explanation_detailed": "ヒットボックスが非常に大きく、全キャラのコンボルートが最大限伸びる。被コンボ耐性が全キャラ中最低クラス。"},
+    {"weakness": "復帰が弱い", "explanation_friendly": "上Bのスピニングコングは横距離は出るけど縦が���い。崖下から復帰するのが苦手。", "explanation_detailed": "上B（スピニングコング）は横距離はあるが縦距離が短い。深く飛ばされると詰む。復帰ルートが直線的で阻止されやすい。"},
+    {"weakness": "飛び道具がない", "explanation_friendly": "遠距離で何もできない。飛び道具キャラに逃げ回られると辛い。", "explanation_detailed": "飛び��具を持たず、ゾーニングキャラに対する接近手段が限られる。"}
+  ]
+}

@@ -1,0 +1,1610 @@
+{
+  "version": "1.0.0",
+  "game": "Super Smash Bros. Ultimate",
+  "patch": "13.0.1",
+  "total_characters": 89,
+  "characters": [
+    {
+      "id": "banjo_and_kazooie",
+      "name_en": "Banjo & Kazooie",
+      "name_ja": "バンジョー＆カズーイ",
+      "weight_class": "medium",
+      "archetype": "zoner",
+      "tier": "C",
+      "strengths": [
+        "飛び道具がたくさんあって、遠くから攻撃できる",
+        "復帰がとても強くて、遠くに飛ばされても戻りやすい",
+        "ワンダーウィングで無敵になりながら突撃できる"
+      ],
+      "weaknesses": [
+        "近距離で戦うのが苦手で、接近されるとキツい",
+        "ワンダーウィングは5回しか使えない",
+        "空中での動きがちょっと遅い"
+      ]
+    },
+    {
+      "id": "bayonetta",
+      "name_en": "Bayonetta",
+      "name_ja": "ベヨネッタ",
+      "weight_class": "light",
+      "archetype": "combo-heavy",
+      "tier": "C",
+      "strengths": [
+        "コンボがつながりやすくて、一度捕まえたら大ダメージ",
+        "ウィッチタイムで相手の攻撃をスローにできる",
+        "復帰力が高くて、遠くからでも戻ってこれる"
+      ],
+      "weaknesses": [
+        "とても軽いので、早い%で飛ばされやすい",
+        "技の後の隙が大きくて、ガードされると反撃される",
+        "撃墜力が低くて、相手をなかなか倒せない"
+      ]
+    },
+    {
+      "id": "bowser",
+      "name_en": "Bowser",
+      "name_ja": "クッパ",
+      "weight_class": "heavy",
+      "archetype": "bait-and-punish",
+      "tier": "A",
+      "strengths": [
+        "ゲームで一番重いから、なかなか吹っ飛ばされない",
+        "一発のダメージがめちゃくちゃ大きい",
+        "横Bの投げ技が超強力で、早い%から撃墜できる"
+      ],
+      "weaknesses": [
+        "体がデカいから攻撃が当たりやすい",
+        "動きが遅くて素早いキャラに翻弄される",
+        "コンボを食らいやすい（デカいから抜けにくい）"
+      ]
+    },
+    {
+      "id": "bowser_jr",
+      "name_en": "Bowser Jr.",
+      "name_ja": "クッパJr.",
+      "weight_class": "medium",
+      "archetype": "zoner",
+      "tier": "D",
+      "strengths": [
+        "飛び道具が優秀で、距離を取って戦える",
+        "クラウンのおかげで判定が強い技が多い",
+        "復帰ルートが多くて戻りやすい"
+      ],
+      "weaknesses": [
+        "近距離で暴れる手段が少ない",
+        "撃墜手段が限られていて倒しきれない",
+        "ガードされた後の隙が大きい技が多い"
+      ]
+    },
+    {
+      "id": "byleth",
+      "name_en": "Byleth",
+      "name_ja": "ベレト／ベレス",
+      "weight_class": "medium",
+      "archetype": "spacing",
+      "tier": "B",
+      "strengths": [
+        "リーチがめちゃくちゃ長くて、離れたところから攻撃できる",
+        "撃墜力が高い技がたくさんある",
+        "上Bのワイヤー復帰が強い"
+      ],
+      "weaknesses": [
+        "動きが遅くて、素早いキャラについていけない",
+        "技の発生が遅いものが多い",
+        "着地が弱くて、空中で追いかけられるとキツい"
+      ]
+    },
+    {
+      "id": "captain_falcon",
+      "name_en": "Captain Falcon",
+      "name_ja": "キャプテン・ファルコン",
+      "weight_class": "medium",
+      "archetype": "rushdown",
+      "tier": "B",
+      "strengths": [
+        "スピードがめちゃくちゃ速くて、一気に近づける",
+        "コンボがカッコよくて火力が高い",
+        "ファルコンパンチやファルコンキックで派手に撃墜できる"
+      ],
+      "weaknesses": [
+        "飛び道具がないから遠距離で何もできない",
+        "復帰が弱くて、崖の外に出されると危険",
+        "技を外すと隙が大きい"
+      ]
+    },
+    {
+      "id": "chrom",
+      "name_en": "Chrom",
+      "name_ja": "クロム",
+      "weight_class": "medium",
+      "archetype": "rushdown",
+      "tier": "B",
+      "strengths": [
+        "剣のリーチが長くて、安全に攻撃できる",
+        "技の発生が速くてコンボもつながる",
+        "ダメージが全体的に高い"
+      ],
+      "weaknesses": [
+        "上Bが真上に飛ぶだけで復帰が弱い",
+        "飛び道具がないから待ち戦法に弱い",
+        "剣の先端と根元でダメージが変わらない（ロイとの違い）"
+      ]
+    },
+    {
+      "id": "cloud",
+      "name_en": "Cloud",
+      "name_ja": "クラウド",
+      "weight_class": "medium",
+      "archetype": "spacing",
+      "tier": "A",
+      "strengths": [
+        "剣のリーチがとにかく長くて、地上戦最強クラス",
+        "リミットが溜まると超強力な必殺技が使える",
+        "空中技が速くて判定が強い"
+      ],
+      "weaknesses": [
+        "復帰が弱くて、崖外に出されると危ない",
+        "リミットがないと必殺技が弱い",
+        "投げからのコンボがほとんどない"
+      ]
+    },
+    {
+      "id": "corrin",
+      "name_en": "Corrin",
+      "name_ja": "カムイ",
+      "weight_class": "medium",
+      "archetype": "spacing",
+      "tier": "C",
+      "strengths": [
+        "リーチが長くて、先端当てが強い",
+        "横Bのピンで相手を固定してから攻撃できる",
+        "撃墜力が高い技がある"
+      ],
+      "weaknesses": [
+        "移動速度が遅くて機動力が低い",
+        "飛び道具がないから遠距離で不利",
+        "着地が弱い"
+      ]
+    },
+    {
+      "id": "daisy",
+      "name_en": "Daisy",
+      "name_ja": "デイジー",
+      "weight_class": "light",
+      "archetype": "all-rounder",
+      "tier": "A",
+      "strengths": [
+        "浮遊で空中に留まれるから攻撃のタイミングをずらせる",
+        "カブを使って遠距離でも戦える",
+        "コンボが強くてダメージを稼ぎやすい"
+      ],
+      "weaknesses": [
+        "軽いから早めに撃墜される",
+        "復帰ルートが読まれやすい",
+        "着地狩りされやすい"
+      ]
+    },
+    {
+      "id": "dark_pit",
+      "name_en": "Dark Pit",
+      "name_ja": "ブラックピット",
+      "weight_class": "medium",
+      "archetype": "all-rounder",
+      "tier": "C",
+      "strengths": [
+        "技のバランスが良くて、どの距離でもそこそこ戦える",
+        "復帰力が高くて安定している",
+        "横Bの電撃アームが強力な撃墜技"
+      ],
+      "weaknesses": [
+        "突出した強みがなくて、器用貧乏になりがち",
+        "火力が低くてダメージを稼ぎにくい",
+        "撃墜に苦労することが多い"
+      ]
+    },
+    {
+      "id": "dark_samus",
+      "name_en": "Dark Samus",
+      "name_ja": "ダークサムス",
+      "weight_class": "medium",
+      "archetype": "zoner",
+      "tier": "B",
+      "strengths": [
+        "チャージショットが超強力な飛び道具",
+        "ミサイルで遠距離から攻撃し続けられる",
+        "体がサムスより少し小さくて当たりにくい"
+      ],
+      "weaknesses": [
+        "近距離で暴れる手段が限られる",
+        "動きが重くて素早いキャラに追いつけない",
+        "投げのコンボが弱い"
+      ]
+    },
+    {
+      "id": "diddy_kong",
+      "name_en": "Diddy Kong",
+      "name_ja": "ディディーコング",
+      "weight_class": "medium",
+      "archetype": "rushdown",
+      "tier": "A",
+      "strengths": [
+        "バナナの皮で相手を転ばせてコンボに繋げる",
+        "動きが速くて攻め込みやすい",
+        "空中技が強くてコンボ火力が高い"
+      ],
+      "weaknesses": [
+        "バナナを取られると自分が不利になる",
+        "軽めだから早めに撃墜される",
+        "撃墜手段が限られる"
+      ]
+    },
+    {
+      "id": "donkey_kong",
+      "name_en": "Donkey Kong",
+      "name_ja": "ドンキーコング",
+      "weight_class": "heavy",
+      "archetype": "grappler",
+      "tier": "C",
+      "strengths": [
+        "パワーがすごくて、一発が重い",
+        "掴みからの投げ連携が超強い（特に崖際）",
+        "リーチが長くて範囲が広い技が多い"
+      ],
+      "weaknesses": [
+        "体がデカくてコンボを食らいやすい",
+        "復帰が弱くて崖外で倒されやすい",
+        "動きが遅くて飛び道具に弱い"
+      ]
+    },
+    {
+      "id": "dr_mario",
+      "name_en": "Dr. Mario",
+      "name_ja": "ドクターマリオ",
+      "weight_class": "medium",
+      "archetype": "bait-and-punish",
+      "tier": "D",
+      "strengths": [
+        "一発一発のダメージがマリオより高い",
+        "下Bのトルネードが撃墜に使える",
+        "カプセルで牽制できる"
+      ],
+      "weaknesses": [
+        "復帰力がゲームで最弱クラス",
+        "動きが遅くて近づくのが大変",
+        "空中での機動力がとても低い"
+      ]
+    },
+    {
+      "id": "duck_hunt",
+      "name_en": "Duck Hunt",
+      "name_ja": "ダックハント",
+      "weight_class": "medium",
+      "archetype": "zoner",
+      "tier": "D",
+      "strengths": [
+        "飛び道具がたくさんあってトリッキーな攻撃ができる",
+        "缶を使った独特なセットプレイが強い",
+        "離れた距離で有利に戦える"
+      ],
+      "weaknesses": [
+        "近距離の技が弱い",
+        "撃墜力が低くてなかなか倒せない",
+        "相手に近づかれると一気にキツくなる"
+      ]
+    },
+    {
+      "id": "falco",
+      "name_en": "Falco",
+      "name_ja": "ファルコ",
+      "weight_class": "light",
+      "archetype": "combo-heavy",
+      "tier": "B",
+      "strengths": [
+        "コンボがめちゃくちゃ繋がって火力が高い",
+        "ブラスターで遠距離から牽制できる",
+        "上投げからのコンボが超強力"
+      ],
+      "weaknesses": [
+        "軽いから早めに撃墜される",
+        "復帰が直線的で読まれやすい",
+        "地上での移動速度が遅め"
+      ]
+    },
+    {
+      "id": "fox",
+      "name_en": "Fox",
+      "name_ja": "フォックス",
+      "weight_class": "light",
+      "archetype": "rushdown",
+      "tier": "A",
+      "strengths": [
+        "ゲームで一番速いクラスのスピード",
+        "技の発生が全体的に速い",
+        "コンボ火力が高くてダメージを一気に稼げる"
+      ],
+      "weaknesses": [
+        "めちゃくちゃ軽いから早期撃墜されやすい",
+        "復帰が直線的で阻止されやすい",
+        "落下速度が速くて着地が弱い"
+      ]
+    },
+    {
+      "id": "ganondorf",
+      "name_en": "Ganondorf",
+      "name_ja": "ガノンドロフ",
+      "weight_class": "heavy",
+      "archetype": "bait-and-punish",
+      "tier": "D",
+      "strengths": [
+        "一発のパワーがゲーム最強クラスで超気持ちいい",
+        "技が当たれば早い%から撃墜できる",
+        "重いからなかなか吹っ飛ばない"
+      ],
+      "weaknesses": [
+        "動きがゲームで一番遅いレベル",
+        "飛び道具がなくて遠距離で何もできない",
+        "復帰が超弱くて崖外に出されたらほぼ終わり"
+      ]
+    },
+    {
+      "id": "greninja",
+      "name_en": "Greninja",
+      "name_ja": "ゲッコウガ",
+      "weight_class": "medium",
+      "archetype": "rushdown",
+      "tier": "A",
+      "strengths": [
+        "スピードが速くて機動力が高い",
+        "水手裏剣で遠距離から牽制できる",
+        "コンボが繋がりやすくて火力が出る"
+      ],
+      "weaknesses": [
+        "技の後の隙がやや大きいものがある",
+        "撃墜技が読まれやすい",
+        "軽めだから意外と早く飛ばされる"
+      ]
+    },
+    {
+      "id": "hero",
+      "name_en": "Hero",
+      "name_ja": "勇者",
+      "weight_class": "medium",
+      "archetype": "zoner",
+      "tier": "B",
+      "strengths": [
+        "呪文コマンドでランダムに超強力な技が出せる",
+        "飛び道具が強力で遠距離から攻撃できる",
+        "MPがある限りバフをかけまくれる"
+      ],
+      "weaknesses": [
+        "MP管理が必要で、切れると必殺技が使えない",
+        "呪文選びに時間がかかる（その間に攻撃される）",
+        "ランダム要素が大きくて安定しない"
+      ]
+    },
+    {
+      "id": "ice_climbers",
+      "name_en": "Ice Climbers",
+      "name_ja": "アイスクライマー",
+      "weight_class": "light",
+      "archetype": "grappler",
+      "tier": "C",
+      "strengths": [
+        "2人で攻撃するからデスコンボが超強力",
+        "掴みから即死コンボがある",
+        "2人いると攻撃範囲が広い"
+      ],
+      "weaknesses": [
+        "ナナ（相方）が倒されると一気に弱くなる",
+        "ナナがいないと復帰も弱い",
+        "2人のシンクロがずれると隙だらけ"
+      ]
+    },
+    {
+      "id": "ike",
+      "name_en": "Ike",
+      "name_ja": "アイク",
+      "weight_class": "heavy",
+      "archetype": "spacing",
+      "tier": "C",
+      "strengths": [
+        "剣のリーチが長くてパワーもある",
+        "空Nが超優秀でいろんな場面で使える",
+        "技一発のダメージが大きい"
+      ],
+      "weaknesses": [
+        "技の発生が遅いから速いキャラに割り込まれる",
+        "復帰が直線的で読まれやすい",
+        "動きが重くて機動力が低い"
+      ]
+    },
+    {
+      "id": "incineroar",
+      "name_en": "Incineroar",
+      "name_ja": "ガオガエン",
+      "weight_class": "heavy",
+      "archetype": "grappler",
+      "tier": "D",
+      "strengths": [
+        "リベンジで攻撃力を大幅アップできる",
+        "投げのダメージがめちゃくちゃ高い",
+        "重くて吹っ飛びにくい"
+      ],
+      "weaknesses": [
+        "ゲームで一番遅いレベルの移動速度",
+        "復帰が弱くて崖外で倒されやすい",
+        "飛び道具がなくて近づけないとキツい"
+      ]
+    },
+    {
+      "id": "inkling",
+      "name_en": "Inkling",
+      "name_ja": "インクリング",
+      "weight_class": "light",
+      "archetype": "rushdown",
+      "tier": "B",
+      "strengths": [
+        "ダッシュ速度が速くてローラーで奇襲できる",
+        "インクを塗るとダメージが増える",
+        "空中技のバランスが良い"
+      ],
+      "weaknesses": [
+        "インクが切れると技が弱くなる",
+        "撃墜力が低めでなかなか倒せない",
+        "軽いから早期撃墜されやすい"
+      ]
+    },
+    {
+      "id": "isabelle",
+      "name_en": "Isabelle",
+      "name_ja": "しずえ",
+      "weight_class": "light",
+      "archetype": "trapper",
+      "tier": "D",
+      "strengths": [
+        "つりざおで遠距離から掴める",
+        "ハニワくんで相手の動きを制限できる",
+        "パチンコで牽制できる"
+      ],
+      "weaknesses": [
+        "火力が低くてダメージを稼ぎにくい",
+        "撃墜手段が少ない",
+        "近距離で暴れる手段が限られる"
+      ]
+    },
+    {
+      "id": "jigglypuff",
+      "name_en": "Jigglypuff",
+      "name_ja": "プリン",
+      "weight_class": "light",
+      "archetype": "bait-and-punish",
+      "tier": "D",
+      "strengths": [
+        "空中での機動力がゲーム最高クラス",
+        "ねむる（下B）が当たれば超早期撃墜",
+        "空中技の判定が強い"
+      ],
+      "weaknesses": [
+        "ゲームで一番軽くて、すぐ飛ばされる",
+        "シールドブレイクで即死する唯一のキャラ",
+        "地上での機動力が低い"
+      ]
+    },
+    {
+      "id": "joker",
+      "name_en": "Joker",
+      "name_ja": "ジョーカー",
+      "weight_class": "medium",
+      "archetype": "rushdown",
+      "tier": "S",
+      "strengths": [
+        "アルセーヌが出ると全技が超強化される",
+        "スピードが速くてコンボも強い",
+        "反逆ガードでカウンター＋アルセーヌゲージが溜まる"
+      ],
+      "weaknesses": [
+        "アルセーヌなしだと火力がそこそこ",
+        "リーチが短めで剣キャラに苦戦しがち",
+        "復帰が読まれやすい"
+      ]
+    },
+    {
+      "id": "kazuya",
+      "name_en": "Kazuya",
+      "name_ja": "カズヤ",
+      "weight_class": "heavy",
+      "archetype": "rushdown",
+      "tier": "A",
+      "strengths": [
+        "コマンド技の火力がとんでもなく高い",
+        "電風風神拳が当たれば即死コンボ",
+        "重くてアーマーもあるから打ち負けにくい"
+      ],
+      "weaknesses": [
+        "空中での機動力が低い",
+        "飛び道具がなくて遠距離で不利",
+        "復帰が読まれやすい"
+      ]
+    },
+    {
+      "id": "ken",
+      "name_en": "Ken",
+      "name_ja": "ケン",
+      "weight_class": "medium",
+      "archetype": "rushdown",
+      "tier": "B",
+      "strengths": [
+        "コマンド入力で強力な技が出せる",
+        "近距離でのコンボ火力がとても高い",
+        "昇龍拳が超強力な撃墜技"
+      ],
+      "weaknesses": [
+        "コマンド入力が難しくて練習が必要",
+        "復帰が弱くて崖外で倒されやすい",
+        "飛び道具が弱くて遠距離が苦手"
+      ]
+    },
+    {
+      "id": "king_dedede",
+      "name_en": "King Dedede",
+      "name_ja": "デデデ",
+      "weight_class": "heavy",
+      "archetype": "bait-and-punish",
+      "tier": "D",
+      "strengths": [
+        "ゴルドーを使った独特な牽制が強い",
+        "めちゃくちゃ重くて全然飛ばない",
+        "ジャンプ回数が多くて復帰力が高い"
+      ],
+      "weaknesses": [
+        "技の発生が遅くて素早いキャラに負ける",
+        "体がデカくてコンボを食らいやすい",
+        "動きが遅くて立ち回りが苦しい"
+      ]
+    },
+    {
+      "id": "king_k_rool",
+      "name_en": "King K. Rool",
+      "name_ja": "キングクルール",
+      "weight_class": "heavy",
+      "archetype": "zoner",
+      "tier": "D",
+      "strengths": [
+        "お腹にスーパーアーマーがあって攻撃を受けても怯まない",
+        "王冠とパチンコで遠距離から攻撃できる",
+        "重くて全然飛ばない"
+      ],
+      "weaknesses": [
+        "動きが遅くて素早いキャラに翻弄される",
+        "お腹のアーマーが壊れるとシールドブレイク",
+        "体がデカくてコンボを食らいやすい"
+      ]
+    },
+    {
+      "id": "kirby",
+      "name_en": "Kirby",
+      "name_ja": "カービィ",
+      "weight_class": "light",
+      "archetype": "all-rounder",
+      "tier": "D",
+      "strengths": [
+        "コピー能力で相手のNBを使える",
+        "ジャンプ回数が多くて空中での滞空時間が長い",
+        "技の発生が速いものが多い"
+      ],
+      "weaknesses": [
+        "リーチが短くて剣キャラに届かない",
+        "軽いから早めに撃墜される",
+        "移動速度が遅い"
+      ]
+    },
+    {
+      "id": "link",
+      "name_en": "Link",
+      "name_ja": "リンク",
+      "weight_class": "medium",
+      "archetype": "zoner",
+      "tier": "B",
+      "strengths": [
+        "リモコン爆弾を使ったセットプレイが超強力",
+        "弓矢とブーメランで遠距離から攻撃できる",
+        "剣のリーチが長くて近距離でも戦える"
+      ],
+      "weaknesses": [
+        "動きがやや遅い",
+        "リモコン爆弾の管理が難しい",
+        "着地が弱くて空中で追いかけられるとキツい"
+      ]
+    },
+    {
+      "id": "little_mac",
+      "name_en": "Little Mac",
+      "name_ja": "リトル・マック",
+      "weight_class": "light",
+      "archetype": "rushdown",
+      "tier": "D",
+      "strengths": [
+        "地上での攻撃速度がゲーム最速クラス",
+        "スーパーアーマー付きのスマッシュが強い",
+        "KOアッパーカットが超強力"
+      ],
+      "weaknesses": [
+        "空中技がゲーム最弱で空中戦ができない",
+        "復帰がゲーム最弱レベル",
+        "崖外に出されたらほぼ帰ってこれない"
+      ]
+    },
+    {
+      "id": "lucario",
+      "name_en": "Lucario",
+      "name_ja": "ルカリオ",
+      "weight_class": "medium",
+      "archetype": "comeback",
+      "tier": "D",
+      "strengths": [
+        "波導システムでダメージが溜まるほど技が強くなる",
+        "波導弾で遠距離から攻撃できる",
+        "ピンチの時に逆転しやすい"
+      ],
+      "weaknesses": [
+        "序盤は攻撃力が低くて火力が出ない",
+        "軽めだから波導が溜まる前に飛ばされることも",
+        "近距離での暴れ手段が弱い"
+      ]
+    },
+    {
+      "id": "lucas",
+      "name_en": "Lucas",
+      "name_ja": "リュカ",
+      "weight_class": "medium",
+      "archetype": "all-rounder",
+      "tier": "C",
+      "strengths": [
+        "PKファイヤーで相手を拘束できる",
+        "空中技が使いやすくてコンボが繋がる",
+        "紐を使った復帰が柔軟"
+      ],
+      "weaknesses": [
+        "PKサンダー復帰が邪魔されやすい",
+        "近距離での発生が遅め",
+        "飛び道具を反射されると厳しい"
+      ]
+    },
+    {
+      "id": "lucina",
+      "name_en": "Lucina",
+      "name_ja": "ルキナ",
+      "weight_class": "medium",
+      "archetype": "spacing",
+      "tier": "A",
+      "strengths": [
+        "剣のどこで当てても同じダメージだから安定して強い",
+        "技のバランスが良くて隙が少ない",
+        "リーチが長くて地上戦が強い"
+      ],
+      "weaknesses": [
+        "飛び道具がなくて遠距離で不利",
+        "マルスと違って先端当てのロマンがない",
+        "復帰がやや読まれやすい"
+      ]
+    },
+    {
+      "id": "luigi",
+      "name_en": "Luigi",
+      "name_ja": "ルイージ",
+      "weight_class": "medium",
+      "archetype": "grappler",
+      "tier": "B",
+      "strengths": [
+        "掴みからの0-deathコンボが超強力",
+        "空中技の発生が速い",
+        "投げの火力がゲームトップクラス"
+      ],
+      "weaknesses": [
+        "移動速度が遅くて近づくのが大変",
+        "復帰が弱くて横に飛ばされると危険",
+        "飛び道具が弱い"
+      ]
+    },
+    {
+      "id": "mario",
+      "name_en": "Mario",
+      "name_ja": "マリオ",
+      "weight_class": "medium",
+      "archetype": "all-rounder",
+      "tier": "A",
+      "strengths": [
+        "技のバランスが良くてどの場面でも戦える",
+        "上投げからの空上コンボが安定して強い",
+        "ファイアボールで遠距離から牽制できる"
+      ],
+      "weaknesses": [
+        "リーチが短めで剣キャラに負けやすい",
+        "撃墜手段が読まれやすい",
+        "復帰がやや弱い"
+      ]
+    },
+    {
+      "id": "marth",
+      "name_en": "Marth",
+      "name_ja": "マルス",
+      "weight_class": "medium",
+      "archetype": "spacing",
+      "tier": "C",
+      "strengths": [
+        "剣の先端で当てるとダメージとふっ飛ばしが大幅アップ",
+        "リーチが長くて地上戦が強い",
+        "技の隙が少ない"
+      ],
+      "weaknesses": [
+        "先端当てができないと火力がガクッと下がる",
+        "ルキナの方が安定するので上位勢に使われにくい",
+        "飛び道具がない"
+      ]
+    },
+    {
+      "id": "mega_man",
+      "name_en": "Mega Man",
+      "name_ja": "ロックマン",
+      "weight_class": "medium",
+      "archetype": "zoner",
+      "tier": "B",
+      "strengths": [
+        "飛び道具がたくさんあってゾーニングが強い",
+        "メタルブレードの角度が8方向で自由度が高い",
+        "エアシューターで復帰阻止が強い"
+      ],
+      "weaknesses": [
+        "近距離の暴れ手段が弱い",
+        "メタルブレードを取られると自分が不利になる",
+        "掴みのリーチが短い"
+      ]
+    },
+    {
+      "id": "meta_knight",
+      "name_en": "Meta Knight",
+      "name_ja": "メタナイト",
+      "weight_class": "light",
+      "archetype": "rushdown",
+      "tier": "D",
+      "strengths": [
+        "ジャンプ回数が多くて空中での追撃が強い",
+        "技の発生が全体的に速い",
+        "復帰力が高い"
+      ],
+      "weaknesses": [
+        "ダメージがゲームで一番低いレベル",
+        "リーチが短い",
+        "軽くて早めに撃墜される"
+      ]
+    },
+    {
+      "id": "mewtwo",
+      "name_en": "Mewtwo",
+      "name_ja": "ミュウツー",
+      "weight_class": "light",
+      "archetype": "spacing",
+      "tier": "C",
+      "strengths": [
+        "シャドーボールが超強力な飛び道具",
+        "テレポートで自由に動ける",
+        "尻尾のリーチが長い"
+      ],
+      "weaknesses": [
+        "体が大きいのに軽いから撃墜されやすい",
+        "尻尾に食らい判定があって攻撃が当たりやすい",
+        "コンボを食らいやすい"
+      ]
+    },
+    {
+      "id": "mii_brawler",
+      "name_en": "Mii Brawler",
+      "name_ja": "Mii 格闘タイプ",
+      "weight_class": "medium",
+      "archetype": "rushdown",
+      "tier": "C",
+      "strengths": [
+        "技の発生が速くて近距離が強い",
+        "コンボ火力が高い",
+        "撃墜技が豊富"
+      ],
+      "weaknesses": [
+        "リーチが短い",
+        "復帰力がセットによって変わる",
+        "大会での使用データが少ない"
+      ]
+    },
+    {
+      "id": "mii_gunner",
+      "name_en": "Mii Gunner",
+      "name_ja": "Mii 射撃タイプ",
+      "weight_class": "medium",
+      "archetype": "zoner",
+      "tier": "D",
+      "strengths": [
+        "飛び道具のバリエーションが豊富",
+        "ゾーニングが強い",
+        "技セットを自由にカスタマイズできる"
+      ],
+      "weaknesses": [
+        "近距離での暴れが弱い",
+        "機動力が低い",
+        "大会での使用データが少ない"
+      ]
+    },
+    {
+      "id": "mii_swordfighter",
+      "name_en": "Mii Swordfighter",
+      "name_ja": "Mii 剣術タイプ",
+      "weight_class": "medium",
+      "archetype": "all-rounder",
+      "tier": "D",
+      "strengths": [
+        "剣のリーチがそこそこある",
+        "飛び道具と剣の両方を使える",
+        "バランスの良い技セット"
+      ],
+      "weaknesses": [
+        "突出した強みがない",
+        "大会での使用データが少ない",
+        "他の剣キャラの劣化になりがち"
+      ]
+    },
+    {
+      "id": "minmin",
+      "name_en": "Min Min",
+      "name_ja": "ミェンミェン",
+      "weight_class": "medium",
+      "archetype": "zoner",
+      "tier": "B",
+      "strengths": [
+        "リーチがゲーム最長クラスで超遠距離から殴れる",
+        "ARMSの両腕を同時に使える",
+        "崖際での攻めが超強力"
+      ],
+      "weaknesses": [
+        "近距離に入られると何もできない",
+        "復帰が弱くて崖外で倒されやすい",
+        "動きが遅い"
+      ]
+    },
+    {
+      "id": "mr_game_and_watch",
+      "name_en": "Mr. Game & Watch",
+      "name_ja": "Mr.ゲーム＆ウォッチ",
+      "weight_class": "light",
+      "archetype": "all-rounder",
+      "tier": "A",
+      "strengths": [
+        "上Bの無敵判定が超強くて割り込みやすい",
+        "バケツ（下B）で飛び道具を吸収して9倍返し",
+        "空中技が全体的に優秀"
+      ],
+      "weaknesses": [
+        "ゲームで2番目に軽くて早期撃墜される",
+        "リーチが短い",
+        "ジャッジ（横B）の9はランダムだから安定しない"
+      ]
+    },
+    {
+      "id": "mythra",
+      "name_en": "Mythra",
+      "name_ja": "ヒカリ",
+      "weight_class": "light",
+      "archetype": "rushdown",
+      "tier": "S",
+      "strengths": [
+        "技の発生がゲーム最速クラス",
+        "先読み回避で相手の攻撃をスローにできる",
+        "コンボ火力がとても高い"
+      ],
+      "weaknesses": [
+        "撃墜力が低いからピュラに切り替える必要がある",
+        "軽めだから早く飛ばされる",
+        "復帰がやや弱い"
+      ]
+    },
+    {
+      "id": "ness",
+      "name_en": "Ness",
+      "name_ja": "ネス",
+      "weight_class": "medium",
+      "archetype": "all-rounder",
+      "tier": "B",
+      "strengths": [
+        "PKファイヤーで相手を拘束できる",
+        "空中技が強くてコンボがつながる",
+        "バットで飛び道具を反射できる"
+      ],
+      "weaknesses": [
+        "PKサンダー復帰が妨害されやすい",
+        "復帰を邪魔されると帰れない",
+        "リーチが短い"
+      ]
+    },
+    {
+      "id": "olimar",
+      "name_en": "Olimar",
+      "name_ja": "ピクミン＆オリマー",
+      "weight_class": "light",
+      "archetype": "zoner",
+      "tier": "B",
+      "strengths": [
+        "ピクミン投げでの牽制が超強力",
+        "スマッシュのリーチが長い",
+        "ピクミンの色によって性能が変わる奥深さ"
+      ],
+      "weaknesses": [
+        "ピクミンがいないと攻撃手段が激減",
+        "軽くて早期撃墜される",
+        "復帰が弱い"
+      ]
+    },
+    {
+      "id": "pac_man",
+      "name_en": "Pac-Man",
+      "name_ja": "パックマン",
+      "weight_class": "medium",
+      "archetype": "trapper",
+      "tier": "B",
+      "strengths": [
+        "消火栓を使ったセットプレイがトリッキー",
+        "フルーツの種類が豊富で読みにくい",
+        "復帰力が非常に高い"
+      ],
+      "weaknesses": [
+        "セットアップに時間がかかる",
+        "撃墜手段が限られる",
+        "近距離での暴れが弱め"
+      ]
+    },
+    {
+      "id": "palutena",
+      "name_en": "Palutena",
+      "name_ja": "パルテナ",
+      "weight_class": "medium",
+      "archetype": "all-rounder",
+      "tier": "A",
+      "strengths": [
+        "空Nと空前の判定が超強くて使いやすい",
+        "テレポート復帰が強い",
+        "反射とカウンターの両方を持っている"
+      ],
+      "weaknesses": [
+        "地上技の発生がやや遅い",
+        "火力が低めでダメージを稼ぎにくい",
+        "撃墜に苦労することがある"
+      ]
+    },
+    {
+      "id": "peach",
+      "name_en": "Peach",
+      "name_ja": "ピーチ",
+      "weight_class": "light",
+      "archetype": "all-rounder",
+      "tier": "S",
+      "strengths": [
+        "浮遊で空中に留まれるから攻撃のタイミングをずらせる",
+        "カブを使って遠距離でも戦える",
+        "コンボが強くてダメージを稼ぎやすい"
+      ],
+      "weaknesses": [
+        "軽いから早めに撃墜される",
+        "操作難易度が高い",
+        "復帰ルートが読まれやすい"
+      ]
+    },
+    {
+      "id": "pichu",
+      "name_en": "Pichu",
+      "name_ja": "ピチュー",
+      "weight_class": "light",
+      "archetype": "rushdown",
+      "tier": "C",
+      "strengths": [
+        "体が超小さくて攻撃が当たりにくい",
+        "スピードが速くてコンボがつながる",
+        "技の発生が速い"
+      ],
+      "weaknesses": [
+        "ゲームで3番目に軽くてすぐ飛ばされる",
+        "電気技を使うと自分もダメージを受ける",
+        "リーチが短い"
+      ]
+    },
+    {
+      "id": "pikachu",
+      "name_en": "Pikachu",
+      "name_ja": "ピカチュウ",
+      "weight_class": "light",
+      "archetype": "rushdown",
+      "tier": "S",
+      "strengths": [
+        "でんこうせっか（上B）が超高性能で復帰最強",
+        "かみなり（下B）が撃墜力バツグン",
+        "小さくて速くてコンボが超強い"
+      ],
+      "weaknesses": [
+        "軽くて早めに撃墜される",
+        "リーチが短い",
+        "撃墜難の場面がある"
+      ]
+    },
+    {
+      "id": "piranha_plant",
+      "name_en": "Piranha Plant",
+      "name_ja": "パックンフラワー",
+      "weight_class": "medium",
+      "archetype": "trapper",
+      "tier": "D",
+      "strengths": [
+        "毒霧で広範囲をカバーできる",
+        "シューリンガンで遠距離から攻撃できる",
+        "首を伸ばす横Bの奇襲が強い"
+      ],
+      "weaknesses": [
+        "近距離での暴れが弱い",
+        "機動力が低い",
+        "コンボが繋がりにくい"
+      ]
+    },
+    {
+      "id": "pit",
+      "name_en": "Pit",
+      "name_ja": "ピット",
+      "weight_class": "medium",
+      "archetype": "all-rounder",
+      "tier": "C",
+      "strengths": [
+        "復帰力が高くて安定している",
+        "技のバランスが良い",
+        "矢で遠距離から牽制できる"
+      ],
+      "weaknesses": [
+        "突出した強みがなくて器用貧乏",
+        "火力が低い",
+        "撃墜に苦労する"
+      ]
+    },
+    {
+      "id": "pt_squirtle",
+      "name_en": "Squirtle (Pokémon Trainer)",
+      "name_ja": "ゼニガメ（ポケモントレーナー）",
+      "weight_class": "light",
+      "archetype": "rushdown",
+      "tier": "A",
+      "strengths": [
+        "超小さくて攻撃を避けやすい",
+        "技の発生が速くてコンボ始動が豊富",
+        "3匹切り替えで状況に応じた戦い方ができる"
+      ],
+      "weaknesses": [
+        "ダメージが低い",
+        "撃墜力がないからフシギソウ・リザードンに切り替える必要がある",
+        "体が軽い"
+      ]
+    },
+    {
+      "id": "pt_ivysaur",
+      "name_en": "Ivysaur (Pokémon Trainer)",
+      "name_ja": "フシギソウ（ポケモントレーナー）",
+      "weight_class": "medium",
+      "archetype": "spacing",
+      "tier": "A",
+      "strengths": [
+        "空後の判定がめちゃくちゃ強い",
+        "リーチが長くて地上戦が強い",
+        "撃墜技が豊富"
+      ],
+      "weaknesses": [
+        "足が遅い",
+        "復帰がやや弱い（つるのムチ依存）",
+        "体が大きめで食らい判定が大きい"
+      ]
+    },
+    {
+      "id": "pt_charizard",
+      "name_en": "Charizard (Pokémon Trainer)",
+      "name_ja": "リザードン（ポケモントレーナー）",
+      "weight_class": "heavy",
+      "archetype": "bait-and-punish",
+      "tier": "A",
+      "strengths": [
+        "パワーがあって撃墜力が高い",
+        "フレアドライブの超パワー",
+        "重くて吹っ飛びにくい"
+      ],
+      "weaknesses": [
+        "体がデカくて攻撃が当たりやすい",
+        "技の発生が遅め",
+        "素早いキャラに翻弄される"
+      ]
+    },
+    {
+      "id": "pyra",
+      "name_en": "Pyra",
+      "name_ja": "ホムラ",
+      "weight_class": "medium",
+      "archetype": "spacing",
+      "tier": "S",
+      "strengths": [
+        "撃墜力がゲームトップクラスで一発が重い",
+        "剣のリーチが長い",
+        "ヒカリと切り替えて状況に応じた戦い方ができる"
+      ],
+      "weaknesses": [
+        "動きが遅い（だからヒカリに切り替える）",
+        "コンボ耐性が低い",
+        "復帰が弱め"
+      ]
+    },
+    {
+      "id": "richter",
+      "name_en": "Richter",
+      "name_ja": "リヒター",
+      "weight_class": "medium",
+      "archetype": "zoner",
+      "tier": "C",
+      "strengths": [
+        "飛び道具が3種類あって遠距離が強い",
+        "ムチのリーチが長い",
+        "聖水で相手を拘束できる"
+      ],
+      "weaknesses": [
+        "復帰が弱くて読まれやすい",
+        "近距離で暴れる手段が少ない",
+        "飛び道具を反射されると厳しい"
+      ]
+    },
+    {
+      "id": "ridley",
+      "name_en": "Ridley",
+      "name_ja": "リドリー",
+      "weight_class": "heavy",
+      "archetype": "bait-and-punish",
+      "tier": "D",
+      "strengths": [
+        "リーチが長くてパワーもある",
+        "横Bのスカイダイブが当たると超大ダメージ",
+        "空中技の判定が強い"
+      ],
+      "weaknesses": [
+        "体がデカくて攻撃が当たりやすい",
+        "コンボを食らいやすい",
+        "復帰がやや弱い"
+      ]
+    },
+    {
+      "id": "rob",
+      "name_en": "R.O.B.",
+      "name_ja": "ロボット",
+      "weight_class": "heavy",
+      "archetype": "zoner",
+      "tier": "A",
+      "strengths": [
+        "ジャイロとビームで遠距離が超強い",
+        "空Nの判定が広くて使いやすい",
+        "重くてなかなか飛ばない"
+      ],
+      "weaknesses": [
+        "体が大きめでコンボを食らいやすい",
+        "ジャイロを取られると不利になる",
+        "復帰がやや読まれやすい"
+      ]
+    },
+    {
+      "id": "robin",
+      "name_en": "Robin",
+      "name_ja": "ルフレ",
+      "weight_class": "medium",
+      "archetype": "zoner",
+      "tier": "D",
+      "strengths": [
+        "魔法の飛び道具が強力",
+        "サンダー系の撃墜力が高い",
+        "剣と魔法の両方で戦える"
+      ],
+      "weaknesses": [
+        "武器と魔法に使用回数制限がある",
+        "移動速度がとても遅い",
+        "武器が壊れると火力が激減"
+      ]
+    },
+    {
+      "id": "rosalina_and_luma",
+      "name_en": "Rosalina & Luma",
+      "name_ja": "ロゼッタ＆チコ",
+      "weight_class": "light",
+      "archetype": "puppet",
+      "tier": "C",
+      "strengths": [
+        "チコと2体で攻撃できるから圧力が高い",
+        "チコの攻撃の判定が強い",
+        "体が大きい割に軽いから早期撃墜できる"
+      ],
+      "weaknesses": [
+        "チコが倒されると一気に弱くなる",
+        "体が大きくて攻撃を食らいやすい",
+        "チコの復活まで耐える必要がある"
+      ]
+    },
+    {
+      "id": "roy",
+      "name_en": "Roy",
+      "name_ja": "ロイ",
+      "weight_class": "medium",
+      "archetype": "rushdown",
+      "tier": "A",
+      "strengths": [
+        "剣の根元で当てるとダメージが超高い",
+        "スピードが速くてコンボ火力もトップクラス",
+        "技の発生が速い"
+      ],
+      "weaknesses": [
+        "近距離で当てないとダメージが低い",
+        "復帰がやや弱い",
+        "リーチが剣キャラの中では短め"
+      ]
+    },
+    {
+      "id": "ryu",
+      "name_en": "Ryu",
+      "name_ja": "リュウ",
+      "weight_class": "medium",
+      "archetype": "bait-and-punish",
+      "tier": "B",
+      "strengths": [
+        "コマンド技が強力で火力が高い",
+        "波動拳で遠距離から牽制できる",
+        "昇龍拳が強力な撃墜技"
+      ],
+      "weaknesses": [
+        "操作が難しい（コマンド入力が必要）",
+        "復帰がやや弱い",
+        "相手の方を自動で向くから逃げにくい"
+      ]
+    },
+    {
+      "id": "samus",
+      "name_en": "Samus",
+      "name_ja": "サムス",
+      "weight_class": "medium",
+      "archetype": "zoner",
+      "tier": "B",
+      "strengths": [
+        "チャージショットが超強力な飛び道具",
+        "ミサイルで遠距離から攻撃し続けられる",
+        "紐を使った復帰が柔軟"
+      ],
+      "weaknesses": [
+        "近距離での暴れ手段が限られる",
+        "動きが重い",
+        "投げコンボが弱い"
+      ]
+    },
+    {
+      "id": "sephiroth",
+      "name_en": "Sephiroth",
+      "name_ja": "セフィロス",
+      "weight_class": "light",
+      "archetype": "spacing",
+      "tier": "A",
+      "strengths": [
+        "リーチがゲーム最長クラスで超遠くから殴れる",
+        "片翼モードで大幅強化される",
+        "撃墜力が非常に高い"
+      ],
+      "weaknesses": [
+        "体が軽くて早めに飛ばされる",
+        "近距離が苦手で接近されるとキツい",
+        "技の発生が遅いものが多い"
+      ]
+    },
+    {
+      "id": "sheik",
+      "name_en": "Sheik",
+      "name_ja": "シーク",
+      "weight_class": "light",
+      "archetype": "rushdown",
+      "tier": "B",
+      "strengths": [
+        "技の発生がゲーム最速レベル",
+        "コンボが超つながりやすい",
+        "スピードが速くて捕まえにくい"
+      ],
+      "weaknesses": [
+        "一発のダメージがめちゃくちゃ低い",
+        "撃墜力が低くてなかなか倒せない",
+        "軽くて早めに飛ばされる"
+      ]
+    },
+    {
+      "id": "shulk",
+      "name_en": "Shulk",
+      "name_ja": "シュルク",
+      "weight_class": "medium",
+      "archetype": "spacing",
+      "tier": "A",
+      "strengths": [
+        "モナドアーツで状況に応じて能力を切り替えられる",
+        "リーチがとても長い",
+        "先読みで相手の攻撃を無効化できる"
+      ],
+      "weaknesses": [
+        "モナドの管理が難しい（使い所を間違えると弱い）",
+        "技の発生がやや遅い",
+        "操作難易度が高い"
+      ]
+    },
+    {
+      "id": "simon",
+      "name_en": "Simon",
+      "name_ja": "シモン",
+      "weight_class": "medium",
+      "archetype": "zoner",
+      "tier": "D",
+      "strengths": [
+        "飛び道具が3種類あって遠距離が強い",
+        "ムチのリーチがめちゃくちゃ長い",
+        "聖水で相手を拘束できる"
+      ],
+      "weaknesses": [
+        "復帰がゲーム最弱クラス",
+        "近距離で暴れる手段がほぼない",
+        "動きが遅い"
+      ]
+    },
+    {
+      "id": "snake",
+      "name_en": "Snake",
+      "name_ja": "スネーク",
+      "weight_class": "heavy",
+      "archetype": "trapper",
+      "tier": "A",
+      "strengths": [
+        "手榴弾とC4を使ったセットプレイが超強い",
+        "ニキータミサイルの操作が自由",
+        "重くてなかなか飛ばない"
+      ],
+      "weaknesses": [
+        "自分の爆弾で自分もダメージを受ける",
+        "近距離の技がやや遅い",
+        "復帰がやや読まれやすい"
+      ]
+    },
+    {
+      "id": "sonic",
+      "name_en": "Sonic",
+      "name_ja": "ソニック",
+      "weight_class": "light",
+      "archetype": "hit-and-run",
+      "tier": "A",
+      "strengths": [
+        "移動速度がゲーム最速",
+        "スピンダッシュ系の技で奇襲できる",
+        "逃げ性能が高い"
+      ],
+      "weaknesses": [
+        "撃墜手段が限られる",
+        "技の判定が弱いものが多い",
+        "飛び道具がない"
+      ]
+    },
+    {
+      "id": "sora",
+      "name_en": "Sora",
+      "name_ja": "ソラ",
+      "weight_class": "light",
+      "archetype": "all-rounder",
+      "tier": "B",
+      "strengths": [
+        "空中での機動力が高くて自由に動ける",
+        "魔法で遠距離から攻撃できる",
+        "復帰力が非常に高い"
+      ],
+      "weaknesses": [
+        "ゲームで最も軽いクラスですぐ飛ばされる",
+        "火力が低くてダメージを稼ぎにくい",
+        "撃墜に苦労することが多い"
+      ]
+    },
+    {
+      "id": "steve",
+      "name_en": "Steve",
+      "name_ja": "スティーブ",
+      "weight_class": "medium",
+      "archetype": "trapper",
+      "tier": "S",
+      "strengths": [
+        "ブロック設置でステージを改造できる",
+        "ダイヤモンド装備時の火力がエグい",
+        "採掘で素材を集めて武器を強化できる"
+      ],
+      "weaknesses": [
+        "素材がないと技が弱い",
+        "採掘の時間を作る必要がある",
+        "操作が独特で慣れが必要"
+      ]
+    },
+    {
+      "id": "terry",
+      "name_en": "Terry",
+      "name_ja": "テリー",
+      "weight_class": "heavy",
+      "archetype": "rushdown",
+      "tier": "B",
+      "strengths": [
+        "100%超えると超必殺技が使える（バスターウルフ等）",
+        "コマンド技の火力が高い",
+        "近距離での暴れが強い"
+      ],
+      "weaknesses": [
+        "復帰が弱い",
+        "コマンド入力が必要",
+        "相手の方を自動で向くから逃げにくい"
+      ]
+    },
+    {
+      "id": "toon_link",
+      "name_en": "Toon Link",
+      "name_ja": "トゥーンリンク",
+      "weight_class": "light",
+      "archetype": "zoner",
+      "tier": "C",
+      "strengths": [
+        "飛び道具が3種類あって遠距離が強い",
+        "動きが速くて小回りが利く",
+        "爆弾を使ったセットプレイが強い"
+      ],
+      "weaknesses": [
+        "撃墜力が低い",
+        "軽くて早めに飛ばされる",
+        "リーチが短め"
+      ]
+    },
+    {
+      "id": "villager",
+      "name_en": "Villager",
+      "name_ja": "むらびと",
+      "weight_class": "medium",
+      "archetype": "trapper",
+      "tier": "C",
+      "strengths": [
+        "しまう（NB）で相手の飛び道具をポケットできる",
+        "木を育てて強力な撃墜技にできる",
+        "パチンコでの牽制が強い"
+      ],
+      "weaknesses": [
+        "近距離での暴れが弱い",
+        "セットアップに時間がかかる",
+        "撃墜手段が限られる"
+      ]
+    },
+    {
+      "id": "wario",
+      "name_en": "Wario",
+      "name_ja": "ワリオ",
+      "weight_class": "heavy",
+      "archetype": "bait-and-punish",
+      "tier": "A",
+      "strengths": [
+        "ワリオッペ（下B）が溜まると超強力な撃墜技",
+        "空中での機動力が高い",
+        "重くてなかなか飛ばない"
+      ],
+      "weaknesses": [
+        "リーチが短い",
+        "ワリオッペが溜まるまで撃墜手段が限られる",
+        "飛び道具がほぼない"
+      ]
+    },
+    {
+      "id": "wii_fit_trainer",
+      "name_en": "Wii Fit Trainer",
+      "name_ja": "Wiiフィットトレーナー",
+      "weight_class": "medium",
+      "archetype": "all-rounder",
+      "tier": "C",
+      "strengths": [
+        "深呼吸で攻撃力とHP回復ができる",
+        "ヘディングが強力な飛び道具",
+        "食らい判定が独特で避けやすい"
+      ],
+      "weaknesses": [
+        "技の判定が独特で当てにくい",
+        "リーチが短い技が多い",
+        "撃墜が不安定"
+      ]
+    },
+    {
+      "id": "wolf",
+      "name_en": "Wolf",
+      "name_ja": "ウルフ",
+      "weight_class": "medium",
+      "archetype": "all-rounder",
+      "tier": "A",
+      "strengths": [
+        "ブラスターが当てると怯むから牽制に最適",
+        "空中技の判定が全体的に強い",
+        "撃墜力が高くて一発のダメージも大きい"
+      ],
+      "weaknesses": [
+        "復帰がやや弱い",
+        "落下速度が速くて着地狩りされやすい",
+        "スピードは中間くらい"
+      ]
+    },
+    {
+      "id": "yoshi",
+      "name_en": "Yoshi",
+      "name_ja": "ヨッシー",
+      "weight_class": "medium",
+      "archetype": "all-rounder",
+      "tier": "B",
+      "strengths": [
+        "空中ジャンプにアーマーがついてて割り込みにくい",
+        "タマゴ投げで遠距離から牽制できる",
+        "空中での機動力が高くて空中戦が強い"
+      ],
+      "weaknesses": [
+        "復帰が空中ジャンプ依存で、ジャンプを潰されると危険",
+        "掴みのリーチが短い",
+        "撃墜手段が読まれやすい"
+      ]
+    },
+    {
+      "id": "young_link",
+      "name_en": "Young Link",
+      "name_ja": "こどもリンク",
+      "weight_class": "light",
+      "archetype": "zoner",
+      "tier": "B",
+      "strengths": [
+        "飛び道具がたくさんあって弾幕を張れる",
+        "火矢のダメージが高い",
+        "コンボがつながりやすい"
+      ],
+      "weaknesses": [
+        "軽くて早めに撃墜される",
+        "撃墜技が限られる",
+        "近距離で押し切られるとキツい"
+      ]
+    },
+    {
+      "id": "zelda",
+      "name_en": "Zelda",
+      "name_ja": "ゼルダ",
+      "weight_class": "light",
+      "archetype": "zoner",
+      "tier": "C",
+      "strengths": [
+        "ファントムが超強力な飛び道具",
+        "フロルの風（上B）で撃墜できる珍しい復帰技",
+        "ネールの愛（NB）で飛び道具を反射"
+      ],
+      "weaknesses": [
+        "技の発生が遅いものが多い",
+        "動きが遅くて機動力が低い",
+        "近距離で暴れにくい"
+      ]
+    },
+    {
+      "id": "zero_suit_samus",
+      "name_en": "Zero Suit Samus",
+      "name_ja": "ゼロスーツサムス",
+      "weight_class": "light",
+      "archetype": "bait-and-punish",
+      "tier": "A",
+      "strengths": [
+        "スピードが速くて機動力が高い",
+        "空中での動きが自由自在",
+        "撃墜技（上B、下スマ等）が強力"
+      ],
+      "weaknesses": [
+        "技のダメージが低い",
+        "コンボを食らいやすい（背が高い）",
+        "撃墜のタイミングが限られる"
+      ]
+    }
+  ]
+}

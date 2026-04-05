@@ -1,0 +1,20 @@
+{
+  "total_videos_attempted": 51,
+  "total_success": 50,
+  "total_errors": 1,
+  "total_chars": 892708,
+  "by_channel": {
+    "IzawSmash": {
+      "success": 47,
+      "total_chars": 809056
+    },
+    "Poppt1": {
+      "success": 2,
+      "total_chars": 62613
+    },
+    "ESAM": {
+      "success": 1,
+      "total_chars": 21039
+    }
+  }
+}

@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-primary: #141218;
+  --color-bg-secondary: #1e1b26;
+  --color-bg-card: #252230;
+  --color-bg-card-hover: #302d3a;
+  --color-border-subtle: #332f3e;
+  --color-border-accent: #443f52;
+  --color-accent-blue: #3b82f6;
+  --color-accent-purple: #8b5cf6;
+  --color-accent-green: #34d399;
+  --color-accent-amber: #fbbf24;
+  --color-accent-red: #f87171;
+  --color-accent-cyan: #22d3ee;
+  --color-accent-orange: #fb923c;
+  --color-accent-pink: #f472b6;
+  --color-text-primary: #f0eef5;
+  --color-text-secondary: #b0adc0;
+  --color-text-muted: #7a7690;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Game community vibe: warm glow effects */
+.glow-blue {
+  box-shadow: 0 0 16px rgba(251, 146, 60, 0.3), 0 0 40px rgba(251, 146, 60, 0.1);
+}
+
+.glow-purple {
+  box-shadow: 0 0 16px rgba(244, 114, 182, 0.3), 0 0 40px rgba(244, 114, 182, 0.1);
+}
+
+.glow-green {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.3);
+}
+
+.glow-red {
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.3);
+}
+
+.glow-amber {
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.3);
+}
+
+/* Animated gradient border */
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.gradient-border {
+  background: linear-gradient(135deg, #fb923c, #f472b6, #fbbf24, #fb923c);
+  background-size: 300% 300%;
+  animation: gradient-shift 4s ease infinite;
+}
+
+/* Score circle animation */
+@keyframes score-fill {
+  from { stroke-dashoffset: 283; }
+}
+
+.score-circle-animated {
+  animation: score-fill 1.5s ease-out forwards;
+}
+
+/* Loading pulse */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Timeline dot hover */
+.timeline-dot {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.timeline-dot:hover {
+  transform: scale(1.4);
+}
+
+/* Button press effect */
+.btn-press:active {
+  transform: scale(0.97);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-accent);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
