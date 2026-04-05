@@ -16,7 +16,7 @@ from typing import Any, Literal
 import anthropic
 
 from app.config import ANALYSIS_MODEL, ANTHROPIC_API_KEY
-from app.models import MatchAnalysis, MatchMoment
+from app.models import GameFlow, MatchAnalysis, MatchMoment, PlayerHabit
 from app.prompts import build_user_prompt, get_system_prompt
 
 logger = logging.getLogger(__name__)
@@ -210,6 +210,17 @@ def _parse_analysis_response(raw_text: str) -> MatchAnalysis:
             matchup_tips=[],
         )
 
+    habits = [
+        PlayerHabit(
+            habit=h.get("habit", ""),
+            description=h.get("description", ""),
+            count=h.get("count", ""),
+            impact=h.get("impact", ""),
+            fix=h.get("fix", ""),
+        )
+        for h in data.get("habits", [])
+    ]
+
     moments = [
         MatchMoment(
             timestamp=m.get("timestamp", 0),
@@ -221,14 +232,26 @@ def _parse_analysis_response(raw_text: str) -> MatchAnalysis:
         for m in data.get("moments", [])
     ]
 
+    game_flow = [
+        GameFlow(
+            game=g.get("game", 0),
+            summary=g.get("summary", ""),
+            turning_point=g.get("turning_point", ""),
+        )
+        for g in data.get("game_flow", [])
+    ]
+
     return MatchAnalysis(
         summary=data.get("summary", ""),
         score=max(0, min(100, int(data.get("score", 0)))),
+        habits=habits,
         moments=moments,
+        game_flow=game_flow,
         strengths=data.get("strengths", []),
         weaknesses=data.get("weaknesses", []),
         practice_plan=data.get("practice_plan", []),
         matchup_tips=data.get("matchup_tips", []),
+        pro_comparison=data.get("pro_comparison", ""),
     )
 
 

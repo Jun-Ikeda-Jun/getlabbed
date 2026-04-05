@@ -14,6 +14,20 @@ export interface MatchMoment {
   readonly practice_tip: string | null;
 }
 
+export interface PlayerHabit {
+  readonly habit: string;
+  readonly description: string;
+  readonly count: string;
+  readonly impact: string;
+  readonly fix: string;
+}
+
+export interface GameFlow {
+  readonly game: number;
+  readonly summary: string;
+  readonly turning_point: string;
+}
+
 export interface MatchAnalysis {
   readonly summary: string;
   readonly score: number;
@@ -21,11 +35,14 @@ export interface MatchAnalysis {
   readonly stage: string;
   readonly player_character: string;
   readonly opponent_character: string;
+  readonly habits: readonly PlayerHabit[];
   readonly moments: readonly MatchMoment[];
+  readonly game_flow: readonly GameFlow[];
   readonly strengths: readonly string[];
   readonly weaknesses: readonly string[];
   readonly practice_plan: readonly string[];
   readonly matchup_tips: readonly string[];
+  readonly pro_comparison: string;
 }
 
 export interface AnalyzeRequest {

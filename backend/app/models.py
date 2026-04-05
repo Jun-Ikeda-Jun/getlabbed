@@ -51,16 +51,37 @@ class MatchMoment(BaseModel):
     practice_tip: str | None = Field(default=None, description="How to practice the improvement")
 
 
+class PlayerHabit(BaseModel):
+    """A recurring habit detected in the player's gameplay."""
+
+    habit: str = Field(..., description="Name of the habit")
+    description: str = Field(..., description="What the habit is")
+    count: str = Field(..., description="How many times observed")
+    impact: str = Field(..., description="How it affected the match")
+    fix: str = Field(..., description="Specific fix recommendation")
+
+
+class GameFlow(BaseModel):
+    """Summary of a single game within the set."""
+
+    game: int = Field(..., description="Game number")
+    summary: str = Field(..., description="Summary of this game")
+    turning_point: str = Field(..., description="Key turning point")
+
+
 class MatchAnalysis(BaseModel):
     """Full analysis result returned to the client."""
 
-    summary: str = Field(..., description="Overall match summary")
+    summary: str = Field(..., description="Overall match summary from player's perspective")
     score: int = Field(..., ge=0, le=100, description="Performance score 0-100")
+    habits: list[PlayerHabit] = Field(default_factory=list, description="Recurring habits detected")
     moments: list[MatchMoment] = Field(default_factory=list, description="Key moments with ratings")
+    game_flow: list[GameFlow] = Field(default_factory=list, description="Per-game summaries")
     strengths: list[str] = Field(default_factory=list, description="Things the player did well")
     weaknesses: list[str] = Field(default_factory=list, description="Areas to improve")
     practice_plan: list[str] = Field(default_factory=list, description="Specific practice recommendations")
     matchup_tips: list[str] = Field(default_factory=list, description="Character-specific advice")
+    pro_comparison: str = Field(default="", description="Comparison with pro players of the same character")
 
 
 class CharacterInfo(BaseModel):

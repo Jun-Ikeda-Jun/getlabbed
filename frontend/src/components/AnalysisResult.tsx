@@ -87,6 +87,41 @@ export default function AnalysisResult({
         </div>
       </div>
 
+      {/* Habits */}
+      {analysis.habits && analysis.habits.length > 0 && (
+        <AnalysisSection
+          title={language === "ja" ? "検出された癖" : "Detected Habits"}
+          icon={<span>&#x1F50D;</span>}
+        >
+          <div className="space-y-4">
+            {analysis.habits.map((habit) => (
+              <div
+                key={habit.habit}
+                className="rounded-lg border border-[var(--color-border-subtle)] bg-[var(--color-bg-secondary)] p-4"
+              >
+                <div className="flex items-center justify-between mb-2">
+                  <h4 className="text-sm font-semibold text-[var(--color-accent-red)]">
+                    {habit.habit}
+                  </h4>
+                  <span className="text-xs text-[var(--color-text-muted)] bg-[var(--color-bg-card)] px-2 py-0.5 rounded">
+                    {habit.count}
+                  </span>
+                </div>
+                <p className="text-sm text-[var(--color-text-secondary)] mb-2">
+                  {habit.description}
+                </p>
+                <p className="text-xs text-[var(--color-text-muted)] mb-2">
+                  {language === "ja" ? "影響: " : "Impact: "}{habit.impact}
+                </p>
+                <p className="text-sm text-[var(--color-accent-green)]">
+                  {language === "ja" ? "修正方法: " : "Fix: "}{habit.fix}
+                </p>
+              </div>
+            ))}
+          </div>
+        </AnalysisSection>
+      )}
+
       {/* Strengths & Weaknesses */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <AnalysisSection
@@ -180,6 +215,45 @@ export default function AnalysisResult({
           ))}
         </ol>
       </AnalysisSection>
+
+      {/* Game Flow */}
+      {analysis.game_flow && analysis.game_flow.length > 0 && (
+        <AnalysisSection
+          title={language === "ja" ? "ゲームの流れ" : "Game Flow"}
+          icon={<span>&#x1F3AE;</span>}
+        >
+          <div className="space-y-3">
+            {analysis.game_flow.map((game) => (
+              <div
+                key={game.game}
+                className="rounded-lg border border-[var(--color-border-subtle)] bg-[var(--color-bg-secondary)] p-4"
+              >
+                <h4 className="text-sm font-semibold text-[var(--color-text-primary)] mb-1">
+                  Game {game.game}
+                </h4>
+                <p className="text-sm text-[var(--color-text-secondary)] mb-2">
+                  {game.summary}
+                </p>
+                <p className="text-xs text-[var(--color-accent-cyan)]">
+                  {language === "ja" ? "転換点: " : "Turning point: "}{game.turning_point}
+                </p>
+              </div>
+            ))}
+          </div>
+        </AnalysisSection>
+      )}
+
+      {/* Pro Comparison */}
+      {analysis.pro_comparison && (
+        <AnalysisSection
+          title={language === "ja" ? "プロとの比較" : "Pro Comparison"}
+          icon={<span>&#x1F3C6;</span>}
+        >
+          <p className="text-sm text-[var(--color-text-secondary)] leading-relaxed">
+            {analysis.pro_comparison}
+          </p>
+        </AnalysisSection>
+      )}
 
       {/* Matchup Tips */}
       {analysis.matchup_tips.length > 0 && (

@@ -8,6 +8,30 @@ export const MOCK_ANALYSIS: MatchAnalysis = {
   stage: "戦場 / Battlefield",
   player_character: "yoshi",
   opponent_character: "mario",
+  habits: [
+    {
+      habit: "崖上がりパターンの固定化",
+      description: "その場上がりを3回連続で選択。相手に読まれてスマッシュを置かれた。",
+      count: "3回中3回がその場上がり",
+      impact: "相手がパターンを読んでスマッシュを合わせ、1ストック失った",
+      fix: "その場・攻撃・回避・ジャンプの4択をランダムに使い分ける。同じ択は2回連続まで。",
+    },
+    {
+      habit: "ガーキャン行動の遅延",
+      description: "ガードを解いてから技を振る癖があり、反撃が間に合わない場面が複数あった。",
+      count: "ガーキャンチャンス4回中3回で遅延",
+      impact: "確定反撃を逃し、合計40%以上のダメージ機会を損失",
+      fix: "ガード中に直接上スマッシュ入力。ガードボタンを離さずにスティック上+A。",
+    },
+  ],
+  game_flow: [
+    {
+      game: 1,
+      summary: "序盤はコンボで%リードを作ったが、中盤の崖攻防で読まれ始め、終盤に逆転勝利。",
+      turning_point: "98秒の崖上がり3連続読まれから流れが変わりかけたが、210秒の空前→空上撃墜で取り返した。",
+    },
+  ],
+  pro_comparison: "空中攻撃のリーチ管理はRon（ヨッシー使い上位）に通じるものがある。ただしRonは崖上がりの択を毎回変えており、崖の攻防での被弾率が圧倒的に低い。崖上がりの改善だけでワンランク上に行ける。",
   moments: [
     {
       timestamp: 23,
@@ -124,6 +148,9 @@ export const MOCK_ANALYSIS: MatchAnalysis = {
 
 export const MOCK_ANALYSIS_EN: MatchAnalysis = {
   ...MOCK_ANALYSIS,
+  habits: MOCK_ANALYSIS.habits.map((h) => ({ ...h })),
+  game_flow: MOCK_ANALYSIS.game_flow.map((g) => ({ ...g })),
+  pro_comparison: "Your aerial spacing is reminiscent of Ron (top Yoshi player). However, Ron varies his ledge options every time, keeping his ledge vulnerability extremely low. Fixing your ledge habits alone would take you to the next level.",
   summary:
     "Overall a great match! Your aerial spacing was excellent, especially with forward air range management. However, you kept choosing the same ledge options repeatedly and your opponent started reading you. Adding variety to your ledge getups will make you much more consistent.",
   moments: MOCK_ANALYSIS.moments.map((m) => ({ ...m })),
