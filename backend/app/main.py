@@ -157,6 +157,32 @@ async def health_check() -> HealthResponse:
     return HealthResponse()
 
 
+@app.get("/api/debug/anthropic")
+async def debug_anthropic() -> dict:
+    """Test connectivity to Anthropic API."""
+    import anthropic as _anthropic
+    import httpx as _httpx
+
+    from app.config import ANTHROPIC_API_KEY as _key
+
+    if not _key:
+        return {"error": "ANTHROPIC_API_KEY not set"}
+
+    try:
+        client = _anthropic.Anthropic(
+            api_key=_key,
+            timeout=_httpx.Timeout(timeout=30.0, connect=10.0),
+        )
+        resp = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=5,
+            messages=[{"role": "user", "content": "hi"}],
+        )
+        return {"status": "ok", "model": resp.model, "text": resp.content[0].text}
+    except Exception as exc:
+        return {"error": str(exc), "type": type(exc).__name__}
+
+
 @app.get("/api/characters", response_model=list[CharacterInfo])
 async def list_characters() -> list[CharacterInfo]:
     """Return all supported characters."""
