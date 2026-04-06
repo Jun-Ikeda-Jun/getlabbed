@@ -57,6 +57,7 @@ async def download_video(youtube_url: str, output_dir: str) -> str:
         "no_warnings": True,
         "socket_timeout": 30,
         "retries": 3,
+        "extractor_args": {"youtube": {"player_client": ["ios"]}},
     }
 
     logger.info("Downloading video: %s", youtube_url)
