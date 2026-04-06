@@ -157,17 +157,75 @@ async def process_match(youtube_url: str, work_dir: str) -> ProcessedMatch:
 
         return result
 
-    except DownloadError as e:
-        raise PipelineError(f"Download failed: {e}") from e
-    except ExtractionError as e:
-        raise PipelineError(f"Frame extraction failed: {e}") from e
-    except OCRError as e:
-        raise PipelineError(f"OCR processing failed: {e}") from e
+    except DownloadError as exc:
+        raise PipelineError(f"Download failed: {exc}") from exc
+    except ExtractionError as exc:
+        raise PipelineError(f"Frame extraction failed: {exc}") from exc
+    except OCRError as exc:
+        raise PipelineError(f"OCR processing failed: {exc}") from exc
     except PipelineError:
         raise
-    except Exception as e:
-        raise PipelineError(f"Unexpected pipeline error: {e}") from e
+    except Exception as exc:
+        raise PipelineError(f"Unexpected pipeline error: {exc}") from exc
     finally:
         # Clean up temp download directory
         if temp_dir and Path(temp_dir).exists():
             shutil.rmtree(temp_dir, ignore_errors=True)
+
+
+async def process_match_from_file(video_path: str, work_dir: str) -> ProcessedMatch:
+    """Process a locally available video file (skips download stage).
+
+    Args:
+        video_path: Path to an already-downloaded video file.
+        work_dir: Directory to use for intermediate and output files.
+
+    Returns:
+        ProcessedMatch with all extracted data.
+    """
+    work_path = Path(work_dir)
+    frames_dir = work_path / "frames"
+    key_frames_dir = work_path / "key_frames"
+
+    try:
+        logger.info("=== Stage 1/3: Extracting metadata ===")
+        metadata = _extract_video_metadata(video_path)
+        logger.info("Video metadata: %s", metadata)
+
+        logger.info("=== Stage 2/3: Extracting frames ===")
+        regular_frames = extract_keyframes(video_path, str(frames_dir))
+        key_frames = extract_stock_change_frames(video_path, str(key_frames_dir))
+        merged_frames = _merge_and_sort_frames(regular_frames, key_frames)
+        logger.info("Total frames: %d", len(merged_frames))
+
+        logger.info("=== Stage 3/3: Running HUD OCR ===")
+        frame_infos = [(f.path, f.timestamp) for f in merged_frames]
+        game_states = process_all_frames(frame_infos)
+
+        key_moment_indices = [
+            i for i, f in enumerate(merged_frames) if f.is_key_moment
+        ]
+        frame_paths = [f.path for f in merged_frames]
+
+        result = ProcessedMatch(
+            video_path=video_path,
+            frames=frame_paths,
+            game_states=game_states,
+            key_moments=key_moment_indices,
+            metadata=metadata,
+        )
+        logger.info(
+            "Pipeline complete: %d frames, %d game states",
+            len(result.frames),
+            len(result.game_states),
+        )
+        return result
+
+    except ExtractionError as exc:
+        raise PipelineError(f"Frame extraction failed: {exc}") from exc
+    except OCRError as exc:
+        raise PipelineError(f"OCR processing failed: {exc}") from exc
+    except Exception as exc:
+        if isinstance(exc, PipelineError):
+            raise
+        raise PipelineError(f"Unexpected pipeline error: {exc}") from exc

@@ -1,20 +1,23 @@
 """FrameCoach API — FastAPI application.
 
 Endpoints:
-    POST /api/analyze     — Submit a YouTube URL for match analysis
-    GET  /api/characters  — List all supported characters
+    POST /api/analyze        — Submit a YouTube URL for match analysis
+    POST /api/analyze-upload — Upload a video file for match analysis
+    GET  /api/characters     — List all supported characters
     GET  /api/matchup/{char_a}/{char_b} — Get matchup data
-    GET  /api/health      — Health check
+    GET  /api/health         — Health check
 """
 
 from __future__ import annotations
 
 import logging
 import os
+import shutil
 import uuid
 from pathlib import Path
+from typing import Literal
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.analyzer import analyze_match
@@ -43,7 +46,7 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 
 try:
-    from video_processing.pipeline import ProcessedMatch, process_match
+    from video_processing.pipeline import ProcessedMatch, process_match, process_match_from_file
 
     _HAS_VIDEO_PROCESSING = True
 except ImportError:
@@ -259,6 +262,71 @@ async def analyze(request: AnalyzeRequest) -> MatchAnalysis:
             status_code=500,
             detail=f"Analysis engine error: {exc}",
         ) from exc
+
+    logger.info("Analysis complete: score=%d, moments=%d", analysis.score, len(analysis.moments))
+    return analysis
+
+
+@app.post(
+    "/api/analyze-upload",
+    response_model=MatchAnalysis,
+    responses={400: {"model": ErrorResponse}, 500: {"model": ErrorResponse}},
+)
+async def analyze_upload(
+    video: UploadFile = File(..., description="Video file (mp4, webm, mov)"),
+    player_character: str = Form(..., description="Character the player is using"),
+    opponent_character: str | None = Form(default=None, description="Opponent character"),
+    mode: Literal["friendly", "detailed"] = Form(default="friendly"),
+    language: Literal["ja", "en"] = Form(default="ja"),
+) -> MatchAnalysis:
+    """Analyze a Smash Bros match from an uploaded video file."""
+    allowed_types = {"video/mp4", "video/webm", "video/quicktime", "video/x-msvideo"}
+    if video.content_type and video.content_type not in allowed_types:
+        raise HTTPException(status_code=400, detail=f"Unsupported video type: {video.content_type}")
+
+    job_id = uuid.uuid4().hex[:8]
+    work_dir = str(Path(WORK_DIR) / job_id)
+    os.makedirs(work_dir, exist_ok=True)
+
+    # Save uploaded file
+    video_path = str(Path(work_dir) / f"upload.{video.filename.rsplit('.', 1)[-1] if video.filename else 'mp4'}")
+    try:
+        with open(video_path, "wb") as f:
+            shutil.copyfileobj(video.file, f)
+        logger.info("Saved uploaded video: %s (%.1f MB)", video_path, Path(video_path).stat().st_size / 1e6)
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=f"Failed to save uploaded video: {exc}") from exc
+
+    try:
+        processed = await process_match_from_file(video_path, work_dir)
+    except Exception as exc:
+        logger.error("Video processing failed: %s", exc)
+        raise HTTPException(status_code=400, detail=f"Failed to process video: {exc}") from exc
+
+    # Load knowledge base
+    frame_data = load_character(player_character) or {}
+    matchup_data = None
+    if opponent_character:
+        matchup_data = load_matchup(player_character, opponent_character)
+
+    pro_knowledge = load_pro_knowledge(player_character, opponent_character)
+    youtube_excerpts = load_youtube_context(player_character)
+
+    try:
+        analysis = await analyze_match(
+            processed_match=processed,
+            player_character=player_character,
+            opponent_character=opponent_character,
+            frame_data=frame_data,
+            matchup_data=matchup_data,
+            mode=mode,
+            language=language,
+            pro_knowledge=pro_knowledge,
+            youtube_excerpts=youtube_excerpts,
+        )
+    except Exception as exc:
+        logger.error("Analysis failed: %s", exc)
+        raise HTTPException(status_code=500, detail=f"Analysis engine error: {exc}") from exc
 
     logger.info("Analysis complete: score=%d, moments=%d", analysis.score, len(analysis.moments))
     return analysis
