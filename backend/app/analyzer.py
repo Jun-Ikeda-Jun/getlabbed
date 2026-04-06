@@ -14,6 +14,7 @@ from pathlib import Path
 from typing import Any, Literal
 
 import anthropic
+import httpx
 
 from app.config import ANALYSIS_MODEL, ANTHROPIC_API_KEY
 from app.models import GameFlow, MatchAnalysis, MatchMoment, PlayerHabit
@@ -349,7 +350,10 @@ async def analyze_match(
         logger.warning("ANTHROPIC_API_KEY not set — returning mock analysis")
         return _mock_analysis(player_character, opponent, language)
 
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+    client = anthropic.Anthropic(
+        api_key=ANTHROPIC_API_KEY,
+        timeout=httpx.Timeout(timeout=900.0, connect=30.0),
+    )
 
     try:
         logger.info("Sending analysis request to Claude (%s, %s mode)", ANALYSIS_MODEL, mode)
