@@ -49,6 +49,7 @@ class MatchMoment(BaseModel):
     ] = Field(..., description="How well the player performed at this moment")
     suggestion: str | None = Field(default=None, description="What the player could do differently")
     practice_tip: str | None = Field(default=None, description="How to practice the improvement")
+    clip_gif: str | None = Field(default=None, description="Base64-encoded GIF clip of this moment")
 
 
 class PlayerHabit(BaseModel):

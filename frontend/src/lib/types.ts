@@ -12,6 +12,7 @@ export interface MatchMoment {
   readonly rating: MomentRating;
   readonly suggestion: string | null;
   readonly practice_tip: string | null;
+  readonly clip_gif: string | null;
 }
 
 export interface PlayerHabit {

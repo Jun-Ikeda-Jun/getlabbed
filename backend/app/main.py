@@ -30,6 +30,7 @@ from app.models import (
     MatchAnalysis,
     MatchupInfo,
 )
+from video_processing.gif_clipper import generate_all_moment_gifs
 
 # ---------------------------------------------------------------------------
 # Logging
@@ -130,6 +131,31 @@ except ImportError:
 # ---------------------------------------------------------------------------
 # FastAPI app
 # ---------------------------------------------------------------------------
+
+def _attach_gifs_to_analysis(
+    analysis: MatchAnalysis,
+    video_path: str,
+    work_dir: str,
+    video_duration: float | None = None,
+) -> MatchAnalysis:
+    """Generate GIF clips for each moment and attach them to the analysis."""
+    timestamps = [m.timestamp for m in analysis.moments]
+    if not timestamps:
+        return analysis
+
+    gif_dir = str(Path(work_dir) / "gifs")
+    clips = generate_all_moment_gifs(video_path, timestamps, gif_dir, video_duration)
+
+    updated_moments = []
+    for moment in analysis.moments:
+        clip = clips.get(moment.timestamp)
+        if clip:
+            updated_moments.append(moment.model_copy(update={"clip_gif": clip.gif_base64}))
+        else:
+            updated_moments.append(moment)
+
+    return analysis.model_copy(update={"moments": updated_moments})
+
 
 app = FastAPI(
     title="FrameCoach API",
@@ -290,6 +316,14 @@ async def analyze(request: AnalyzeRequest) -> MatchAnalysis:
         ) from exc
 
     logger.info("Analysis complete: score=%d, moments=%d", analysis.score, len(analysis.moments))
+
+    # Generate GIF clips for each moment
+    video_duration = processed.metadata.get("duration_seconds") if hasattr(processed, "metadata") else None
+    video_file = getattr(processed, "video_path", "")
+    if video_file:
+        analysis = _attach_gifs_to_analysis(analysis, video_file, work_dir, video_duration)
+        logger.info("GIFs attached: %d/%d moments", sum(1 for m in analysis.moments if m.clip_gif), len(analysis.moments))
+
     return analysis
 
 
@@ -355,4 +389,10 @@ async def analyze_upload(
         raise HTTPException(status_code=500, detail=f"Analysis engine error: {exc}") from exc
 
     logger.info("Analysis complete: score=%d, moments=%d", analysis.score, len(analysis.moments))
+
+    # Generate GIF clips for each moment
+    video_duration = processed.metadata.get("duration_seconds") if hasattr(processed, "metadata") else None
+    analysis = _attach_gifs_to_analysis(analysis, video_path, work_dir, video_duration)
+    logger.info("GIFs attached: %d/%d moments", sum(1 for m in analysis.moments if m.clip_gif), len(analysis.moments))
+
     return analysis

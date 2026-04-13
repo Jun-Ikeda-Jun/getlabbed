@@ -26,6 +26,18 @@ export default function MomentCard({ moment, language }: MomentCardProps) {
         ${getRatingBgColor(moment.rating)}
       `}
     >
+      {/* GIF Clip */}
+      {moment.clip_gif && (
+        <div className="mb-3 rounded-lg overflow-hidden border border-white/10">
+          <img
+            src={`data:image/gif;base64,${moment.clip_gif}`}
+            alt={`Clip at ${formatTimestamp(moment.timestamp)}`}
+            className="w-full"
+            loading="lazy"
+          />
+        </div>
+      )}
+
       {/* Header */}
       <div className="flex items-start gap-3 mb-2">
         <span className="text-lg">{getRatingIcon(moment.rating)}</span>
