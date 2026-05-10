@@ -1,0 +1,23 @@
+- generic:
+  - dialog "クッキー同意バナー" [ref=e1]:
+    - button "このダイアログを閉じる" [ref=e2] [cursor=pointer]:
+      - img "このダイアログを閉じる" [ref=e3]
+    - generic [ref=e4]:
+      - generic [ref=e5]: このウェブサイトでは、Cookie などのテクノロジーを利用して、サイトの重要な機能や、分析、パーソナライゼーション、および ターゲットを絞った広告 を有効にしています。 詳細については、次のリンクをご覧ください。
+      - link "プライバシーポリシー" [ref=e6] [cursor=pointer]:
+        - /url: https://railway.com/legal/privacy
+  - dialog "Login" [active] [ref=e8]:
+    - heading "Login" [level=3] [ref=e10]
+    - generic [ref=e11]:
+      - button "閉じる"
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e20]:
+          - img "Railway Logo" [ref=e22]
+          - generic [ref=e25]:
+            - paragraph [ref=e26]: Welcome to Railway
+            - paragraph [ref=e27]: Instant deployments, effortless scale
+        - button "Continue with GitHub" [ref=e29] [cursor=pointer]:
+          - img [ref=e31]
+          - generic [ref=e33]: Continue with GitHub
+      - button "Log in using email" [ref=e34] [cursor=pointer]

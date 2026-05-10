@@ -1,0 +1,659 @@
+- generic [ref=e4]:
+  - banner [ref=e6]:
+    - generic [ref=e7]:
+      - link "Railway Logo" [ref=e8] [cursor=pointer]:
+        - /url: /dashboard
+        - img "Railway Logo" [ref=e10]
+      - generic [ref=e13]:
+        - button "alert-simplicity" [ref=e16] [cursor=pointer]:
+          - generic "jun-ikeda-jun's Projects" [ref=e17]
+          - generic [ref=e19]: alert-simplicity
+          - img [ref=e21]
+        - button "production" [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]: production
+          - img [ref=e28]
+    - navigation [ref=e30]:
+      - generic [ref=e32]:
+        - button "Toggle activity" [ref=e34] [cursor=pointer]:
+          - img [ref=e36]
+        - button "3" [ref=e703] [cursor=pointer]:
+          - generic [ref=e39]:
+            - img [ref=e41]
+            - generic [ref=e43]: "3"
+        - button "30 days or $5.00 left" [ref=e214] [cursor=pointer]:
+          - paragraph [ref=e216]:
+            - generic [ref=e217]: 30 days or $5.00 left
+        - button "Agent" [ref=e47] [cursor=pointer]:
+          - img [ref=e49]
+          - text: Agent
+  - generic [ref=e51]:
+    - navigation "Project navigation" [ref=e52]:
+      - generic [ref=e53]:
+        - link "Architecture" [ref=e56] [cursor=pointer]:
+          - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+          - img [ref=e58]
+        - link "Observability" [ref=e64] [cursor=pointer]:
+          - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/observability?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+          - img [ref=e66]
+        - link "Logs" [ref=e69] [cursor=pointer]:
+          - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/logs?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+          - img [ref=e71]
+        - link "Settings" [ref=e75] [cursor=pointer]:
+          - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/settings?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+          - img [ref=e77]
+      - button [ref=e80] [cursor=pointer]:
+        - generic "iamno11shane@gmail.com" [ref=e82]
+    - region [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e93]:
+          - img [ref=e94]
+          - generic [ref=e95]:
+            - generic [ref=e97]:
+              - generic:
+                - img
+                - button "getlabbed Build failed 36 seconds ago" [ref=e777]:
+                  - link "getlabbed Build failed 36 seconds ago" [ref=e778] [cursor=pointer]:
+                    - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                    - generic [ref=e102]:
+                      - img [ref=e104]
+                      - paragraph [ref=e107]: getlabbed
+                    - generic [ref=e108]:
+                      - img [ref=e707]
+                      - paragraph [ref=e709]:
+                        - text: Build failed
+                        - time [ref=e710]: 36 seconds ago
+            - toolbar "Canvas options" [ref=e452]:
+              - button "Canvas settings" [ref=e453] [cursor=pointer]:
+                - img [ref=e118]
+              - group "canvas action" [ref=e454]:
+                - button "Zoom in" [ref=e455] [cursor=pointer]:
+                  - img [ref=e131]
+                - button "Zoom out" [ref=e456] [cursor=pointer]:
+                  - img [ref=e135]
+                - button "Center canvas" [ref=e457] [cursor=pointer]:
+                  - img [ref=e138]
+              - group "canvas action" [ref=e458]:
+                - button "Undo" [ref=e459] [cursor=pointer]:
+                  - img [ref=e146]
+                - button "Redo" [ref=e460] [cursor=pointer]:
+                  - img [ref=e151]
+              - button "Visibility layers" [ref=e461] [cursor=pointer]:
+                - img [ref=e156]
+            - img [ref=e158]
+        - generic [ref=e161]:
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - generic [ref=e165]:
+                - generic [ref=e167]:
+                  - button [ref=e168] [cursor=pointer]:
+                    - img [ref=e170]
+                  - heading "getlabbed" [level=1] [ref=e462]:
+                    - button "getlabbed" [ref=e463] [cursor=pointer]
+                - link [ref=e175] [cursor=pointer]:
+                  - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180?
+                  - img [ref=e177]
+              - generic [ref=e179]:
+                - link "Deployments" [ref=e464] [cursor=pointer]:
+                  - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                  - generic [ref=e181]: Deployments
+                - link "Variables" [ref=e465] [cursor=pointer]:
+                  - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6/variables?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                  - generic [ref=e184]: Variables
+                - link "Metrics" [ref=e466] [cursor=pointer]:
+                  - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6/metrics?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                  - generic [ref=e186]: Metrics
+                - link "Settings" [ref=e467] [cursor=pointer]:
+                  - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6/settings?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                  - generic [ref=e188]: Settings
+            - generic [ref=e191]:
+              - generic [ref=e192]:
+                - generic [ref=e193]:
+                  - img [ref=e195]
+                  - generic [ref=e711]: Service offline
+                - generic [ref=e199]:
+                  - generic [ref=e200]:
+                    - img [ref=e202]
+                    - link "europe-west4-drams3a" [ref=e468] [cursor=pointer]:
+                      - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6/settings?#deploy-region-config
+                  - generic [ref=e206]:
+                    - img [ref=e208]
+                    - link "1 Replica" [ref=e469] [cursor=pointer]:
+                      - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6/settings?#deploy-region-config
+              - generic [ref=e504]:
+                - 'link "Failed fix: 分析品質の改善 — 視点統一・タイムスタンプ・スコア基準・新フィールド - プレイヤーキャラ側の視点のみでコーチング（相手側アドバイス除外） - タイムスタンプはフレーム画像の値をそのまま使用する指示 - スコア0-100のルーブリック追加（プロ/上級/中級/初中級/初心者） - habits（癖検出）, game_flow, pro_comparison フィールド追加 - フロントエンドに癖・ゲームフロー・プロ比較セクション追加 2 minutes ago via GitHub View logs" [ref=e779] [cursor=pointer]':
+                  - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?id=cd1a721f-fa90-4a39-befd-1f702827d65c#build
+                  - generic [ref=e506]:
+                    - generic [ref=e507]:
+                      - generic [ref=e509]: Failed
+                      - img [ref=e514]
+                      - generic [ref=e516]:
+                        - paragraph [ref=e517]: "fix: 分析品質の改善 — 視点統一・タイムスタンプ・スコア基準・新フィールド - プレイヤーキャラ側の視点のみでコーチング（相手側アドバイス除外） - タイムスタンプはフレーム画像の値をそのまま使用する指示 - スコア0-100のルーブリック追加（プロ/上級/中級/初中級/初心者） - habits（癖検出）, game_flow, pro_comparison フィールド追加 - フロントエンドに癖・ゲームフロー・プロ比較セクション追加"
+                        - paragraph [ref=e518]:
+                          - time [ref=e519]: 2 minutes ago
+                          - text: via GitHub
+                    - generic [ref=e520]:
+                      - button "Deployment actions" [ref=e521]:
+                        - img [ref=e523]
+                      - link "View logs" [active] [ref=e527]:
+                        - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?id=cd1a721f-fa90-4a39-befd-1f702827d65c#build
+                        - generic [ref=e528]: View logs
+                - generic [ref=e530]:
+                  - button "Deployment failed during network process (01:19)" [expanded] [ref=e713] [cursor=pointer]:
+                    - generic [ref=e714]:
+                      - generic [ref=e715]:
+                        - img [ref=e717]
+                        - paragraph [ref=e719]: Deployment failed during network process
+                      - paragraph [ref=e720]:
+                        - text: (
+                        - time [ref=e721]: 01:19
+                        - text: )
+                    - img [ref=e554]
+                  - region "Deployment failed during network process (01:19)" [ref=e722]:
+                    - generic [ref=e724]:
+                      - img [ref=e726]
+                      - generic [ref=e728]:
+                        - paragraph [ref=e730]: Initialization
+                        - paragraph [ref=e731]:
+                          - text: (
+                          - time [ref=e732]: 00:00
+                          - text: )
+                    - generic [ref=e734]:
+                      - img [ref=e736]
+                      - generic [ref=e738]:
+                        - paragraph [ref=e740]: Build
+                        - paragraph [ref=e741]:
+                          - text: (
+                          - time [ref=e742]: 00:18
+                          - text: )
+                    - generic [ref=e744]:
+                      - img [ref=e746]
+                      - generic [ref=e748]:
+                        - paragraph [ref=e750]: Deploy
+                        - paragraph [ref=e751]:
+                          - text: (
+                          - time [ref=e752]: 00:05
+                          - text: )
+                    - generic [ref=e753]:
+                      - generic [ref=e754]:
+                        - img [ref=e756]
+                        - generic [ref=e758]:
+                          - paragraph [ref=e760]:
+                            - text: Network
+                            - generic [ref=e761]: › Healthcheck
+                          - paragraph [ref=e762]:
+                            - text: (
+                            - time [ref=e763]: 00:53
+                            - text: )
+                      - paragraph [ref=e766]: Healthcheck failure
+                    - generic [ref=e768]:
+                      - img [ref=e770]
+                      - generic [ref=e772]:
+                        - paragraph [ref=e774]: Post-deploy
+                        - paragraph [ref=e775]: Not started
+              - generic [ref=e314]:
+                - button "History" [expanded] [ref=e475] [cursor=pointer]:
+                  - img [ref=e317]
+                  - paragraph [ref=e319]: History
+                - region "History" [ref=e476]:
+                  - generic [ref=e556]:
+                    - 'link "Failed fix: 分析品質の改善 — 視点統一・タイムスタンプ・スコア基準・新フィールド - プレイヤーキャラ側の視点のみでコーチング（相手側アドバイス除外） - タイムスタンプはフレーム画像の値をそのまま使用する指示 - スコア0-100のルーブリック追加（プロ/上級/中級/初中級/初心者） - habits（癖検出）, game_flow, pro_comparison フィールド追加 - フロントエンドに癖・ゲームフロー・プロ比較セクション追加 16 minutes ago via GitHub View logs" [ref=e776] [cursor=pointer]':
+                      - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?id=d682a2c2-2572-4399-9d5d-4e2cd3993a07#build
+                      - generic [ref=e558]:
+                        - generic [ref=e559]:
+                          - generic [ref=e561]: Failed
+                          - img [ref=e566]
+                          - generic [ref=e568]:
+                            - paragraph [ref=e569]: "fix: 分析品質の改善 — 視点統一・タイムスタンプ・スコア基準・新フィールド - プレイヤーキャラ側の視点のみでコーチング（相手側アドバイス除外） - タイムスタンプはフレーム画像の値をそのまま使用する指示 - スコア0-100のルーブリック追加（プロ/上級/中級/初中級/初心者） - habits（癖検出）, game_flow, pro_comparison フィールド追加 - フロントエンドに癖・ゲームフロー・プロ比較セクション追加"
+                            - paragraph [ref=e570]:
+                              - time [ref=e571]: 16 minutes ago
+                              - text: via GitHub
+                        - generic [ref=e572]:
+                          - button "Deployment actions" [ref=e573]:
+                            - img [ref=e575]
+                          - link "View logs" [ref=e579]:
+                            - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?id=d682a2c2-2572-4399-9d5d-4e2cd3993a07#build
+                            - generic [ref=e580]: View logs
+                    - generic [ref=e582]:
+                      - button "Deployment failed during network process (01:23)" [expanded] [ref=e583] [cursor=pointer]:
+                        - generic [ref=e584]:
+                          - generic [ref=e585]:
+                            - img [ref=e587]
+                            - paragraph [ref=e589]: Deployment failed during network process
+                          - paragraph [ref=e590]:
+                            - text: (
+                            - time [ref=e591]: 01:23
+                            - text: )
+                        - img [ref=e593]
+                      - region "Deployment failed during network process (01:23)" [ref=e595]:
+                        - generic [ref=e597]:
+                          - img [ref=e599]
+                          - generic [ref=e601]:
+                            - paragraph [ref=e603]: Initialization
+                            - paragraph [ref=e604]:
+                              - text: (
+                              - time [ref=e605]: 00:02
+                              - text: )
+                        - generic [ref=e607]:
+                          - img [ref=e609]
+                          - generic [ref=e611]:
+                            - paragraph [ref=e613]: Build
+                            - paragraph [ref=e614]:
+                              - text: (
+                              - time [ref=e615]: 00:20
+                              - text: )
+                        - generic [ref=e617]:
+                          - img [ref=e619]
+                          - generic [ref=e621]:
+                            - paragraph [ref=e623]: Deploy
+                            - paragraph [ref=e624]:
+                              - text: (
+                              - time [ref=e625]: 00:05
+                              - text: )
+                        - generic [ref=e626]:
+                          - generic [ref=e627]:
+                            - img [ref=e629]
+                            - generic [ref=e631]:
+                              - paragraph [ref=e633]:
+                                - text: Network
+                                - generic [ref=e634]: › Healthcheck
+                              - paragraph [ref=e635]:
+                                - text: (
+                                - time [ref=e636]: 00:53
+                                - text: )
+                          - paragraph [ref=e639]: Healthcheck failure
+                        - generic [ref=e641]:
+                          - img [ref=e643]
+                          - generic [ref=e645]:
+                            - paragraph [ref=e647]: Post-deploy
+                            - paragraph [ref=e648]: Not started
+                  - 'link "Failed fix: 分析品質の改善 — 視点統一・タイムスタンプ・スコア基準・新フィールド - プレイヤーキャラ側の視点のみでコーチング（相手側アドバイス除外） - タイムスタンプはフレーム画像の値をそのまま使用する指示 - スコア0-100のルーブリック追加（プロ/上級/中級/初中級/初心者） - habits（癖検出）, game_flow, pro_comparison フィールド追加 - フロントエンドに癖・ゲームフロー・プロ比較セクション追加 20 minutes ago via GitHub View logs" [ref=e780] [cursor=pointer]':
+                    - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?id=c6bf12be-f48b-468f-88e2-81c899e18784
+                    - generic [ref=e651]:
+                      - generic [ref=e652]:
+                        - generic [ref=e654]: Failed
+                        - img [ref=e659]
+                        - generic [ref=e661]:
+                          - paragraph [ref=e662]: "fix: 分析品質の改善 — 視点統一・タイムスタンプ・スコア基準・新フィールド - プレイヤーキャラ側の視点のみでコーチング（相手側アドバイス除外） - タイムスタンプはフレーム画像の値をそのまま使用する指示 - スコア0-100のルーブリック追加（プロ/上級/中級/初中級/初心者） - habits（癖検出）, game_flow, pro_comparison フィールド追加 - フロントエンドに癖・ゲームフロー・プロ比較セクション追加"
+                          - paragraph [ref=e663]:
+                            - time [ref=e664]: 20 minutes ago
+                            - text: via GitHub
+                      - generic [ref=e665]:
+                        - button "Deployment actions" [ref=e666]:
+                          - img [ref=e668]
+                        - link "View logs" [ref=e673]:
+                          - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?id=c6bf12be-f48b-468f-88e2-81c899e18784#build
+                          - generic [ref=e674]: View logs
+          - generic [ref=e783]:
+            - generic [ref=e784]:
+              - generic [ref=e785]:
+                - img [ref=e787]
+                - generic [ref=e789]:
+                  - link "getlabbed" [ref=e790] [cursor=pointer]:
+                    - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                  - generic [ref=e791]: /
+                  - button "cd1a721f" [ref=e792] [cursor=pointer]
+                  - generic [ref=e793]: Failed
+                - generic [ref=e794]:
+                  - button "Deployment actions" [ref=e795] [cursor=pointer]:
+                    - img [ref=e797]
+                  - time [ref=e801]: Apr 5, 2026, 10:21 PM GMT+9
+                  - link [ref=e802] [cursor=pointer]:
+                    - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                    - img [ref=e804]
+              - generic [ref=e806]:
+                - link "getlabbed-production.up.railway.app" [ref=e808] [cursor=pointer]:
+                  - /url: https://getlabbed-production.up.railway.app
+                - link "Get Help" [ref=e810] [cursor=pointer]:
+                  - /url: https://backboard.railway.com/csc/auth/login?redirect_uri=https://station-server.railway.com/auth/callback
+                  - img [ref=e812]
+                  - generic [ref=e815]: Get Help
+            - tablist [ref=e816]:
+              - tab "Details" [ref=e817] [cursor=pointer]
+              - tab "Build Logs" [selected] [ref=e818] [cursor=pointer]: Build Logs
+              - tab "Deploy Logs" [ref=e820] [cursor=pointer]
+              - tab "HTTP Logs" [ref=e821] [cursor=pointer]
+              - tab "Network Flow Logs" [ref=e822] [cursor=pointer]
+            - tabpanel "Build Logs" [ref=e823]:
+              - generic [ref=e825]:
+                - generic [ref=e828]:
+                  - generic [ref=e829]:
+                    - generic:
+                      - img
+                    - generic [ref=e830]:
+                      - generic: Search build logs
+                      - textbox [ref=e831]
+                    - generic [ref=e833]: /
+                  - button "Options" [ref=e834] [cursor=pointer]:
+                    - img [ref=e836]
+                - table [ref=e840]:
+                  - rowgroup [ref=e841]:
+                    - row "Time (JST) Message" [ref=e842]:
+                      - columnheader "Time (JST)" [ref=e843]: Time (JST)
+                      - columnheader "Message" [ref=e847]: Message
+                      - columnheader [ref=e849]:
+                        - button "Layout settings" [ref=e850] [cursor=pointer]:
+                          - img [ref=e852]
+                  - rowgroup [ref=e857]:
+                    - row "You reached the start of the range Apr 5, 2026, 10:16 PM" [ref=e858]:
+                      - cell "You reached the start of the range Apr 5, 2026, 10:16 PM" [ref=e859]:
+                        - generic [ref=e861]:
+                          - text: You reached the start of the range
+                          - img [ref=e863]
+                          - time [ref=e865]: Apr 5, 2026, 10:16 PM
+                    - row "Apr 5 2026 22:21:58" [ref=e866]:
+                      - cell "Apr 5 2026 22:21:58" [ref=e867] [cursor=pointer]:
+                        - generic [ref=e868]:
+                          - button [ref=e869]
+                          - time [ref=e872]: Apr 5 2026 22:21:58
+                      - cell [ref=e873]:
+                        - button [ref=e874]
+                    - 'row "Apr 5 2026 22:22:04 [Region: europe-west4]" [ref=e875]':
+                      - cell "Apr 5 2026 22:22:04" [ref=e876] [cursor=pointer]:
+                        - generic [ref=e877]:
+                          - button [ref=e878]
+                          - time [ref=e881]: Apr 5 2026 22:22:04
+                      - 'cell "[Region: europe-west4]" [ref=e882]':
+                        - 'button "[Region: europe-west4]" [ref=e883]':
+                          - generic [ref=e884]: "[Region: europe-west4]"
+                    - row "Apr 5 2026 22:22:04 =========================" [ref=e885]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e886] [cursor=pointer]:
+                        - generic [ref=e887]:
+                          - button [ref=e888]
+                          - time [ref=e891]: Apr 5 2026 22:22:04
+                      - cell "=========================" [ref=e892]:
+                        - button "=========================" [ref=e893]:
+                          - generic [ref=e894]: =========================
+                    - row "Apr 5 2026 22:22:04 Using Detected Dockerfile" [ref=e895]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e896] [cursor=pointer]:
+                        - generic [ref=e897]:
+                          - button [ref=e898]
+                          - time [ref=e901]: Apr 5 2026 22:22:04
+                      - cell "Using Detected Dockerfile" [ref=e902]:
+                        - button "Using Detected Dockerfile" [ref=e903]:
+                          - generic [ref=e904]: Using Detected Dockerfile
+                    - row "Apr 5 2026 22:22:04 =========================" [ref=e905]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e906] [cursor=pointer]:
+                        - generic [ref=e907]:
+                          - button [ref=e908]
+                          - time [ref=e911]: Apr 5 2026 22:22:04
+                      - cell "=========================" [ref=e912]:
+                        - button "=========================" [ref=e913]:
+                          - generic [ref=e914]: =========================
+                    - row "Apr 5 2026 22:22:04" [ref=e915]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e916] [cursor=pointer]:
+                        - generic [ref=e917]:
+                          - button [ref=e918]
+                          - time [ref=e921]: Apr 5 2026 22:22:04
+                      - cell [ref=e922]:
+                        - button
+                    - 'row "Apr 5 2026 22:22:04 context: txgg-pNOY" [ref=e923]':
+                      - cell "Apr 5 2026 22:22:04" [ref=e924] [cursor=pointer]:
+                        - generic [ref=e925]:
+                          - button [ref=e926]
+                          - time [ref=e929]: Apr 5 2026 22:22:04
+                      - 'cell "context: txgg-pNOY" [ref=e930]':
+                        - 'button "context: txgg-pNOY" [ref=e931]'
+                    - row "Apr 5 2026 22:22:04 internal load build definition from Dockerfile 0ms" [ref=e932]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e933] [cursor=pointer]:
+                        - generic [ref=e934]:
+                          - button [ref=e935]
+                          - time [ref=e938]: Apr 5 2026 22:22:04
+                      - cell "internal load build definition from Dockerfile 0ms" [ref=e939]:
+                        - button "internal load build definition from Dockerfile 0ms" [ref=e940]:
+                          - generic [ref=e941]:
+                            - generic [ref=e942]:
+                              - img [ref=e944]
+                              - generic [ref=e946]: internal
+                            - generic [ref=e947]: load build definition from Dockerfile
+                            - time [ref=e949]: 0ms
+                    - row "Apr 5 2026 22:22:04 internal load metadata for docker.io/library/python:3.12-slim 167ms" [ref=e950]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e951] [cursor=pointer]:
+                        - generic [ref=e952]:
+                          - button [ref=e953]
+                          - time [ref=e956]: Apr 5 2026 22:22:04
+                      - cell "internal load metadata for docker.io/library/python:3.12-slim 167ms" [ref=e957]:
+                        - button "internal load metadata for docker.io/library/python:3.12-slim 167ms" [ref=e958]:
+                          - generic [ref=e959]:
+                            - generic [ref=e960]:
+                              - img [ref=e962]
+                              - generic [ref=e964]: internal
+                            - generic [ref=e965]: load metadata for docker.io/library/python:3.12-slim
+                            - time [ref=e967]: 167ms
+                    - row "Apr 5 2026 22:22:04 internal load .dockerignore 0ms" [ref=e968]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e969] [cursor=pointer]:
+                        - generic [ref=e970]:
+                          - button [ref=e971]
+                          - time [ref=e974]: Apr 5 2026 22:22:04
+                      - cell "internal load .dockerignore 0ms" [ref=e975]:
+                        - button "internal load .dockerignore 0ms" [ref=e976]:
+                          - generic [ref=e977]:
+                            - generic [ref=e978]:
+                              - img [ref=e980]
+                              - generic [ref=e982]: internal
+                            - generic [ref=e983]: load .dockerignore
+                            - time [ref=e985]: 0ms
+                    - row "Apr 5 2026 22:22:04 1 FROM docker.io/library/python:3.12-slim@sha256:3d5ed973e45820f5ba5e46bd065bd88b3a504ff0724d85980dcd05eab361fcf4 7ms" [ref=e986]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e987] [cursor=pointer]:
+                        - generic [ref=e988]:
+                          - button [ref=e989]
+                          - time [ref=e992]: Apr 5 2026 22:22:04
+                      - cell "1 FROM docker.io/library/python:3.12-slim@sha256:3d5ed973e45820f5ba5e46bd065bd88b3a504ff0724d85980dcd05eab361fcf4 7ms" [ref=e993]:
+                        - button "1 FROM docker.io/library/python:3.12-slim@sha256:3d5ed973e45820f5ba5e46bd065bd88b3a504ff0724d85980dcd05eab361fcf4 7ms" [ref=e994]:
+                          - generic [ref=e995]:
+                            - generic [ref=e996]:
+                              - img [ref=e998]
+                              - generic [ref=e1000]: "1"
+                            - generic [ref=e1001]: FROM docker.io/library/python:3.12-slim@sha256:3d5ed973e45820f5ba5e46bd065bd88b3a504ff0724d85980dcd05eab361fcf4
+                            - time [ref=e1003]: 7ms
+                    - row "Apr 5 2026 22:22:04 internal load build context 0ms" [ref=e1004]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e1005] [cursor=pointer]:
+                        - generic [ref=e1006]:
+                          - button [ref=e1007]
+                          - time [ref=e1010]: Apr 5 2026 22:22:04
+                      - cell "internal load build context 0ms" [ref=e1011]:
+                        - button "internal load build context 0ms" [ref=e1012]:
+                          - generic [ref=e1013]:
+                            - generic [ref=e1014]:
+                              - img [ref=e1016]
+                              - generic [ref=e1018]: internal
+                            - generic [ref=e1019]: load build context
+                            - time [ref=e1021]: 0ms
+                    - row "Apr 5 2026 22:22:04 7 COPY data/ ./data/ cached 0ms" [ref=e1022]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e1023] [cursor=pointer]:
+                        - generic [ref=e1024]:
+                          - button [ref=e1025]
+                          - time [ref=e1028]: Apr 5 2026 22:22:04
+                      - cell "7 COPY data/ ./data/ cached 0ms" [ref=e1029]:
+                        - button "7 COPY data/ ./data/ cached 0ms" [ref=e1030]:
+                          - generic [ref=e1031]:
+                            - generic [ref=e1032]:
+                              - img [ref=e1034]
+                              - generic [ref=e1036]: "7"
+                            - generic [ref=e1037]: COPY data/ ./data/ cached
+                            - time [ref=e1039]: 0ms
+                    - row "Apr 5 2026 22:22:04 6 COPY backend/ ./backend/ cached 0ms" [ref=e1040]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e1041] [cursor=pointer]:
+                        - generic [ref=e1042]:
+                          - button [ref=e1043]
+                          - time [ref=e1046]: Apr 5 2026 22:22:04
+                      - cell "6 COPY backend/ ./backend/ cached 0ms" [ref=e1047]:
+                        - button "6 COPY backend/ ./backend/ cached 0ms" [ref=e1048]:
+                          - generic [ref=e1049]:
+                            - generic [ref=e1050]:
+                              - img [ref=e1052]
+                              - generic [ref=e1054]: "6"
+                            - generic [ref=e1055]: COPY backend/ ./backend/ cached
+                            - time [ref=e1057]: 0ms
+                    - row "Apr 5 2026 22:22:04 5 RUN pip install --no-cache-dir -r requirements.txt cached 0ms" [ref=e1058]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e1059] [cursor=pointer]:
+                        - generic [ref=e1060]:
+                          - button [ref=e1061]
+                          - time [ref=e1064]: Apr 5 2026 22:22:04
+                      - cell "5 RUN pip install --no-cache-dir -r requirements.txt cached 0ms" [ref=e1065]:
+                        - button "5 RUN pip install --no-cache-dir -r requirements.txt cached 0ms" [ref=e1066]:
+                          - generic [ref=e1067]:
+                            - generic [ref=e1068]:
+                              - img [ref=e1070]
+                              - generic [ref=e1072]: "5"
+                            - generic [ref=e1073]: RUN pip install --no-cache-dir -r requirements.txt cached
+                            - time [ref=e1075]: 0ms
+                    - row "Apr 5 2026 22:22:04 4 COPY backend/requirements.txt . cached 0ms" [ref=e1076]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e1077] [cursor=pointer]:
+                        - generic [ref=e1078]:
+                          - button [ref=e1079]
+                          - time [ref=e1082]: Apr 5 2026 22:22:04
+                      - cell "4 COPY backend/requirements.txt . cached 0ms" [ref=e1083]:
+                        - button "4 COPY backend/requirements.txt . cached 0ms" [ref=e1084]:
+                          - generic [ref=e1085]:
+                            - generic [ref=e1086]:
+                              - img [ref=e1088]
+                              - generic [ref=e1090]: "4"
+                            - generic [ref=e1091]: COPY backend/requirements.txt . cached
+                            - time [ref=e1093]: 0ms
+                    - row "Apr 5 2026 22:22:04 3 WORKDIR /app cached 0ms" [ref=e1094]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e1095] [cursor=pointer]:
+                        - generic [ref=e1096]:
+                          - button [ref=e1097]
+                          - time [ref=e1100]: Apr 5 2026 22:22:04
+                      - cell "3 WORKDIR /app cached 0ms" [ref=e1101]:
+                        - button "3 WORKDIR /app cached 0ms" [ref=e1102]:
+                          - generic [ref=e1103]:
+                            - generic [ref=e1104]:
+                              - img [ref=e1106]
+                              - generic [ref=e1108]: "3"
+                            - generic [ref=e1109]: WORKDIR /app cached
+                            - time [ref=e1111]: 0ms
+                    - row "Apr 5 2026 22:22:04 2 RUN apt-get update && apt-get install -y --no-install-recommends tesseract-ocr libgl1 libglib2.0-0 ffmpeg && rm -rf /var/lib/apt/lists/* cached 0ms" [ref=e1112]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e1113] [cursor=pointer]:
+                        - generic [ref=e1114]:
+                          - button [ref=e1115]
+                          - time [ref=e1118]: Apr 5 2026 22:22:04
+                      - cell "2 RUN apt-get update && apt-get install -y --no-install-recommends tesseract-ocr libgl1 libglib2.0-0 ffmpeg && rm -rf /var/lib/apt/lists/* cached 0ms" [ref=e1119]:
+                        - button "2 RUN apt-get update && apt-get install -y --no-install-recommends tesseract-ocr libgl1 libglib2.0-0 ffmpeg && rm -rf /var/lib/apt/lists/* cached 0ms" [ref=e1120]:
+                          - generic [ref=e1121]:
+                            - generic [ref=e1122]:
+                              - img [ref=e1124]
+                              - generic [ref=e1126]: "2"
+                            - generic [ref=e1127]: RUN apt-get update && apt-get install -y --no-install-recommends tesseract-ocr libgl1 libglib2.0-0 ffmpeg && rm -rf /var/lib/apt/lists/* cached
+                            - time [ref=e1129]: 0ms
+                    - row "Apr 5 2026 22:22:04 auth sharing credentials for production-europe-west4-drams3a.railway-registry.com 0ms" [ref=e1130]:
+                      - cell "Apr 5 2026 22:22:04" [ref=e1131] [cursor=pointer]:
+                        - generic [ref=e1132]:
+                          - button [ref=e1133]
+                          - time [ref=e1136]: Apr 5 2026 22:22:04
+                      - cell "auth sharing credentials for production-europe-west4-drams3a.railway-registry.com 0ms" [ref=e1137]:
+                        - button "auth sharing credentials for production-europe-west4-drams3a.railway-registry.com 0ms" [ref=e1138]:
+                          - generic [ref=e1139]:
+                            - generic [ref=e1140]:
+                              - img [ref=e1142]
+                              - generic [ref=e1144]: auth
+                            - generic [ref=e1145]: sharing credentials for production-europe-west4-drams3a.railway-registry.com
+                            - time [ref=e1147]: 0ms
+                    - row "Apr 5 2026 22:22:06 importing to docker 7s" [ref=e1148]:
+                      - cell "Apr 5 2026 22:22:06" [ref=e1149] [cursor=pointer]:
+                        - generic [ref=e1150]:
+                          - button [ref=e1151]
+                          - time [ref=e1154]: Apr 5 2026 22:22:06
+                      - cell "importing to docker 7s" [ref=e1155]:
+                        - button "importing to docker 7s" [ref=e1156]:
+                          - generic [ref=e1157]:
+                            - generic [ref=e1158]: importing to docker
+                            - time [ref=e1160]: 7s
+                    - 'row "Apr 5 2026 22:22:14 Build time: 9.81 seconds" [ref=e1161]':
+                      - cell "Apr 5 2026 22:22:14" [ref=e1162] [cursor=pointer]:
+                        - generic [ref=e1163]:
+                          - button [ref=e1164]
+                          - time [ref=e1167]: Apr 5 2026 22:22:14
+                      - 'cell "Build time: 9.81 seconds" [ref=e1168]':
+                        - 'button "Build time: 9.81 seconds" [ref=e1169]':
+                          - generic [ref=e1170]: "Build time: 9.81 seconds"
+                    - row "Apr 5 2026 22:22:22" [ref=e1171]:
+                      - cell "Apr 5 2026 22:22:22" [ref=e1172] [cursor=pointer]:
+                        - generic [ref=e1173]:
+                          - button [ref=e1174]
+                          - time [ref=e1177]: Apr 5 2026 22:22:22
+                      - cell [ref=e1178]:
+                        - button [ref=e1179]
+                    - row "Apr 5 2026 22:22:22 ==================== Starting Healthcheck ====================" [ref=e1180]:
+                      - cell "Apr 5 2026 22:22:22" [ref=e1181] [cursor=pointer]:
+                        - generic [ref=e1182]:
+                          - button [ref=e1183]
+                          - time [ref=e1186]: Apr 5 2026 22:22:22
+                      - cell "==================== Starting Healthcheck ====================" [ref=e1187]:
+                        - button "==================== Starting Healthcheck ====================" [ref=e1188]:
+                          - generic [ref=e1189]: ==================== Starting Healthcheck ====================
+                    - 'row "Apr 5 2026 22:22:22 Path: /api/health" [ref=e1190]':
+                      - cell "Apr 5 2026 22:22:22" [ref=e1191] [cursor=pointer]:
+                        - generic [ref=e1192]:
+                          - button [ref=e1193]
+                          - time [ref=e1196]: Apr 5 2026 22:22:22
+                      - 'cell "Path: /api/health" [ref=e1197]':
+                        - 'button "Path: /api/health" [ref=e1198]':
+                          - generic [ref=e1199]: "Path: /api/health"
+                    - 'row "Apr 5 2026 22:22:22 Retry window: 30s" [ref=e1200]':
+                      - cell "Apr 5 2026 22:22:22" [ref=e1201] [cursor=pointer]:
+                        - generic [ref=e1202]:
+                          - button [ref=e1203]
+                          - time [ref=e1206]: Apr 5 2026 22:22:22
+                      - 'cell "Retry window: 30s" [ref=e1207]':
+                        - 'button "Retry window: 30s" [ref=e1208]':
+                          - generic [ref=e1209]: "Retry window: 30s"
+                    - row "Apr 5 2026 22:22:22" [ref=e1210]:
+                      - cell "Apr 5 2026 22:22:22" [ref=e1211] [cursor=pointer]:
+                        - generic [ref=e1212]:
+                          - button [ref=e1213]
+                          - time [ref=e1216]: Apr 5 2026 22:22:22
+                      - cell [ref=e1217]:
+                        - button [ref=e1218]
+                    - 'row "Apr 5 2026 22:22:32 Attempt #1 failed with service unavailable. Continuing to retry for 19s" [ref=e1219]':
+                      - cell "Apr 5 2026 22:22:32" [ref=e1220] [cursor=pointer]:
+                        - generic [ref=e1221]:
+                          - button [ref=e1222]
+                          - time [ref=e1225]: Apr 5 2026 22:22:32
+                      - 'cell "Attempt #1 failed with service unavailable. Continuing to retry for 19s" [ref=e1226]':
+                        - 'button "Attempt #1 failed with service unavailable. Continuing to retry for 19s" [ref=e1227]':
+                          - generic [ref=e1228]: "Attempt #1 failed with service unavailable. Continuing to retry for 19s"
+                    - 'row "Apr 5 2026 22:22:43 Attempt #2 failed with service unavailable. Continuing to retry for 8s" [ref=e1229]':
+                      - cell "Apr 5 2026 22:22:43" [ref=e1230] [cursor=pointer]:
+                        - generic [ref=e1231]:
+                          - button [ref=e1232]
+                          - time [ref=e1235]: Apr 5 2026 22:22:43
+                      - 'cell "Attempt #2 failed with service unavailable. Continuing to retry for 8s" [ref=e1236]':
+                        - 'button "Attempt #2 failed with service unavailable. Continuing to retry for 8s" [ref=e1237]':
+                          - generic [ref=e1238]: "Attempt #2 failed with service unavailable. Continuing to retry for 8s"
+                    - row "Apr 5 2026 22:23:15" [ref=e1239]:
+                      - cell "Apr 5 2026 22:23:15" [ref=e1240] [cursor=pointer]:
+                        - generic [ref=e1241]:
+                          - button [ref=e1242]
+                          - time [ref=e1245]: Apr 5 2026 22:23:15
+                      - cell [ref=e1246]:
+                        - button [ref=e1247]
+                    - row "Apr 5 2026 22:23:15 1/1 replicas never became healthy!" [ref=e1248]:
+                      - cell "Apr 5 2026 22:23:15" [ref=e1249] [cursor=pointer]:
+                        - generic [ref=e1250]:
+                          - button [ref=e1251]
+                          - time [ref=e1254]: Apr 5 2026 22:23:15
+                      - cell "1/1 replicas never became healthy!" [ref=e1255]:
+                        - button "1/1 replicas never became healthy!" [ref=e1256]:
+                          - generic [ref=e1257]: 1/1 replicas never became healthy!
+                    - row "Apr 5 2026 22:23:15 Healthcheck failed!" [ref=e1258]:
+                      - cell "Apr 5 2026 22:23:15" [ref=e1259] [cursor=pointer]:
+                        - generic [ref=e1260]:
+                          - button [ref=e1261]
+                          - time [ref=e1264]: Apr 5 2026 22:23:15
+                      - cell "Healthcheck failed!" [ref=e1265]:
+                        - button "Healthcheck failed!" [ref=e1266]:
+                          - generic [ref=e1269]:
+                            - paragraph [ref=e1270]: Healthcheck failed!
+                            - img [ref=e1272]
+                    - row "You reached the end of the range Apr 5, 2026, 10:28 PM" [ref=e1275]:
+                      - cell "You reached the end of the range Apr 5, 2026, 10:28 PM" [ref=e1276]:
+                        - generic [ref=e1278]:
+                          - text: You reached the end of the range
+                          - img [ref=e1280]
+                          - time [ref=e1282]: Apr 5, 2026, 10:28 PM
+                  - generic [ref=e1283]:
+                    - button "Jump to top" [ref=e1284] [cursor=pointer]:
+                      - img [ref=e1286]
+                    - button "Jump to bottom" [disabled] [ref=e1288]:
+                      - img [ref=e1290]

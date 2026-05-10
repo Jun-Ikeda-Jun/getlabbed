@@ -1,0 +1,309 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - banner:
+            - generic:
+              - link "Railway Logo":
+                - /url: /dashboard
+                - generic:
+                  - img "Railway Logo"
+              - generic:
+                - generic:
+                  - button "alert-simplicity":
+                    - generic "jun-ikeda-jun's Projects"
+                    - generic: alert-simplicity
+                    - generic:
+                      - img
+                - generic:
+                  - button "production":
+                    - generic: production
+                    - generic:
+                      - img
+            - navigation:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Toggle activity":
+                      - generic:
+                        - img
+                  - button "2":
+                    - generic:
+                      - generic:
+                        - img
+                      - generic: "2"
+                  - button "30 days or $5.00 left":
+                    - generic:
+                      - paragraph:
+                        - generic: 30 days or $5.00 left
+                  - button "Agent":
+                    - generic:
+                      - img
+                    - text: Agent
+        - generic:
+          - navigation "Project navigation":
+            - generic:
+              - generic:
+                - link "Architecture":
+                  - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                  - generic:
+                    - img
+              - generic:
+                - link "Observability":
+                  - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/observability?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                  - generic:
+                    - img
+              - generic:
+                - link "Logs":
+                  - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/logs?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                  - generic:
+                    - img
+              - generic:
+                - link "Settings":
+                  - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/settings?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                  - generic:
+                    - img
+            - generic:
+              - button:
+                - generic:
+                  - generic "iamno11shane@gmail.com"
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - region:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                                      - button "getlabbed Build failed 13 minutes ago" [ref=e450]:
+                                        - link "getlabbed Build failed 13 minutes ago" [ref=e451] [cursor=pointer]:
+                                          - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                                          - generic [ref=e102]:
+                                            - img [ref=e104]
+                                            - paragraph [ref=e107]: getlabbed
+                                          - generic [ref=e108]:
+                                            - img [ref=e110]
+                                            - paragraph [ref=e112]:
+                                              - text: Build failed
+                                              - time [ref=e113]: 13 minutes ago
+                                - toolbar "Canvas options" [ref=e452]:
+                                  - button "Canvas settings" [ref=e453] [cursor=pointer]:
+                                    - img [ref=e118]
+                                  - group "canvas action" [ref=e454]:
+                                    - button "Zoom in" [ref=e455] [cursor=pointer]:
+                                      - img [ref=e131]
+                                    - button "Zoom out" [ref=e456] [cursor=pointer]:
+                                      - img [ref=e135]
+                                    - button "Center canvas" [ref=e457] [cursor=pointer]:
+                                      - img [ref=e138]
+                                  - group "canvas action" [ref=e458]:
+                                    - button "Undo" [ref=e459] [cursor=pointer]:
+                                      - img [ref=e146]
+                                    - button "Redo" [ref=e460] [cursor=pointer]:
+                                      - img [ref=e151]
+                                  - button "Visibility layers" [ref=e461] [cursor=pointer]:
+                                    - img [ref=e156]
+                                - img
+                      - generic [ref=e163]:
+                        - generic [ref=e164]:
+                          - generic [ref=e165]:
+                            - generic [ref=e167]:
+                              - button [ref=e168] [cursor=pointer]:
+                                - img [ref=e170]
+                              - heading "getlabbed" [level=1] [ref=e462]:
+                                - button "getlabbed" [ref=e463] [cursor=pointer]
+                            - link [ref=e175] [cursor=pointer]:
+                              - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180?
+                              - img [ref=e177]
+                          - generic [ref=e179]:
+                            - link "Deployments" [ref=e464] [cursor=pointer]:
+                              - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                              - generic [ref=e181]: Deployments
+                            - link "Variables" [ref=e465] [cursor=pointer]:
+                              - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6/variables?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                              - generic [ref=e184]: Variables
+                            - link "Metrics" [ref=e466] [cursor=pointer]:
+                              - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6/metrics?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                              - generic [ref=e186]: Metrics
+                            - link "Settings" [ref=e467] [cursor=pointer]:
+                              - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6/settings?environmentId=20c7d598-17a5-47f5-90a6-4aba7ae36873
+                              - generic [ref=e188]: Settings
+                        - generic [ref=e191]:
+                          - generic [ref=e192]:
+                            - generic [ref=e193]:
+                              - img [ref=e195]
+                              - generic [ref=e198]: Service offline
+                            - generic [ref=e199]:
+                              - generic [ref=e200]:
+                                - img [ref=e202]
+                                - link "europe-west4-drams3a" [ref=e468] [cursor=pointer]:
+                                  - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6/settings?#deploy-region-config
+                              - generic [ref=e206]:
+                                - img [ref=e208]
+                                - link "1 Replica" [ref=e469] [cursor=pointer]:
+                                  - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6/settings?#deploy-region-config
+                          - generic [ref=e219]:
+                            - 'link "Failed fix: 分析品質の改善 — 視点統一・タイムスタンプ・スコア基準・新フィールド - プレイヤーキャラ側の視点のみでコーチング（相手側アドバイス除外） - タイムスタンプはフレーム画像の値をそのまま使用する指示 - スコア0-100のルーブリック追加（プロ/上級/中級/初中級/初心者） - habits（癖検出）, game_flow, pro_comparison フィールド追加 - フロントエンドに癖・ゲームフロー・プロ比較セクション追加 14 minutes ago via GitHub View logs" [ref=e470] [cursor=pointer]':
+                              - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?id=d682a2c2-2572-4399-9d5d-4e2cd3993a07#build
+                              - generic [ref=e221]:
+                                - generic [ref=e222]:
+                                  - generic [ref=e224]: Failed
+                                  - img [ref=e229]
+                                  - generic [ref=e231]:
+                                    - paragraph [ref=e232]: "fix: 分析品質の改善 — 視点統一・タイムスタンプ・スコア基準・新フィールド - プレイヤーキャラ側の視点のみでコーチング（相手側アドバイス除外） - タイムスタンプはフレーム画像の値をそのまま使用する指示 - スコア0-100のルーブリック追加（プロ/上級/中級/初中級/初心者） - habits（癖検出）, game_flow, pro_comparison フィールド追加 - フロントエンドに癖・ゲームフロー・プロ比較セクション追加"
+                                    - paragraph [ref=e233]:
+                                      - time [ref=e234]: 14 minutes ago
+                                      - text: via GitHub
+                                - generic [ref=e235]:
+                                  - button "Deployment actions" [ref=e471]:
+                                    - img [ref=e238]
+                                  - link "View logs" [ref=e472]:
+                                    - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?id=d682a2c2-2572-4399-9d5d-4e2cd3993a07#build
+                                    - generic [ref=e243]: View logs
+                            - generic [ref=e245]:
+                              - button "Deployment failed during network process (01:23)" [expanded] [ref=e473] [cursor=pointer]:
+                                - generic [ref=e247]:
+                                  - generic [ref=e248]:
+                                    - img [ref=e250]
+                                    - paragraph [ref=e252]: Deployment failed during network process
+                                  - paragraph [ref=e253]:
+                                    - text: (
+                                    - time [ref=e254]: 01:23
+                                    - text: )
+                                - img [ref=e256]
+                              - region "Deployment failed during network process (01:23)" [ref=e474]:
+                                - generic [ref=e260]:
+                                  - img [ref=e262]
+                                  - generic [ref=e264]:
+                                    - paragraph [ref=e266]: Initialization
+                                    - paragraph [ref=e267]:
+                                      - text: (
+                                      - time [ref=e268]: 00:02
+                                      - text: )
+                                - generic [ref=e270]:
+                                  - img [ref=e272]
+                                  - generic [ref=e274]:
+                                    - paragraph [ref=e276]: Build
+                                    - paragraph [ref=e277]:
+                                      - text: (
+                                      - time [ref=e278]: 00:20
+                                      - text: )
+                                - generic [ref=e280]:
+                                  - img [ref=e282]
+                                  - generic [ref=e284]:
+                                    - paragraph [ref=e286]: Deploy
+                                    - paragraph [ref=e287]:
+                                      - text: (
+                                      - time [ref=e288]: 00:05
+                                      - text: )
+                                - generic [ref=e289]:
+                                  - generic [ref=e290]:
+                                    - img [ref=e292]
+                                    - generic [ref=e294]:
+                                      - paragraph [ref=e296]:
+                                        - text: Network
+                                        - generic [ref=e297]: › Healthcheck
+                                      - paragraph [ref=e298]:
+                                        - text: (
+                                        - time [ref=e299]: 00:53
+                                        - text: )
+                                  - paragraph [ref=e302]: Healthcheck failure
+                                - generic [ref=e304]:
+                                  - img [ref=e306]
+                                  - generic [ref=e308]:
+                                    - paragraph [ref=e310]: Post-deploy
+                                    - paragraph [ref=e311]: Not started
+                          - generic [ref=e314]:
+                            - button "History" [expanded] [ref=e475] [cursor=pointer]:
+                              - img [ref=e317]
+                              - paragraph [ref=e319]: History
+                            - region "History" [ref=e476]:
+                              - generic [ref=e321]:
+                                - 'link "Failed fix: 分析品質の改善 — 視点統一・タイムスタンプ・スコア基準・新フィールド - プレイヤーキャラ側の視点のみでコーチング（相手側アドバイス除外） - タイムスタンプはフレーム画像の値をそのまま使用する指示 - スコア0-100のルーブリック追加（プロ/上級/中級/初中級/初心者） - habits（癖検出）, game_flow, pro_comparison フィールド追加 - フロントエンドに癖・ゲームフロー・プロ比較セクション追加 18 minutes ago via GitHub View logs" [ref=e477] [cursor=pointer]':
+                                  - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?id=c6bf12be-f48b-468f-88e2-81c899e18784#build
+                                  - generic [ref=e323]:
+                                    - generic [ref=e324]:
+                                      - generic [ref=e326]: Failed
+                                      - img [ref=e331]
+                                      - generic [ref=e333]:
+                                        - paragraph [ref=e334]: "fix: 分析品質の改善 — 視点統一・タイムスタンプ・スコア基準・新フィールド - プレイヤーキャラ側の視点のみでコーチング（相手側アドバイス除外） - タイムスタンプはフレーム画像の値をそのまま使用する指示 - スコア0-100のルーブリック追加（プロ/上級/中級/初中級/初心者） - habits（癖検出）, game_flow, pro_comparison フィールド追加 - フロントエンドに癖・ゲームフロー・プロ比較セクション追加"
+                                        - paragraph [ref=e335]:
+                                          - time [ref=e336]: 18 minutes ago
+                                          - text: via GitHub
+                                    - generic [ref=e337]:
+                                      - button "Deployment actions" [ref=e478]:
+                                        - img [ref=e340]
+                                      - link "View logs" [ref=e479]:
+                                        - /url: /project/2a5f0ac6-2894-4b6b-96e1-8b4df98f0180/service/7eb2c3a7-156f-47c5-bd3b-3f4efd25b7e6?id=c6bf12be-f48b-468f-88e2-81c899e18784#build
+                                        - generic [ref=e345]: View logs
+                                - generic [ref=e347]:
+                                  - button "Deployment failed during network process (02:46)" [expanded] [ref=e480] [cursor=pointer]:
+                                    - generic [ref=e349]:
+                                      - generic [ref=e350]:
+                                        - img [ref=e352]
+                                        - paragraph [ref=e354]: Deployment failed during network process
+                                      - paragraph [ref=e355]:
+                                        - text: (
+                                        - time [ref=e356]: 02:46
+                                        - text: )
+                                    - img [ref=e358]
+                                  - region "Deployment failed during network process (02:46)" [ref=e481]:
+                                    - generic [ref=e362]:
+                                      - img [ref=e364]
+                                      - generic [ref=e366]:
+                                        - paragraph [ref=e368]: Initialization
+                                        - paragraph [ref=e369]:
+                                          - text: (
+                                          - time [ref=e370]: 00:01
+                                          - text: )
+                                    - generic [ref=e372]:
+                                      - img [ref=e374]
+                                      - generic [ref=e376]:
+                                        - paragraph [ref=e378]: Build
+                                        - paragraph [ref=e379]:
+                                          - text: (
+                                          - time [ref=e380]: 01:42
+                                          - text: )
+                                    - generic [ref=e382]:
+                                      - img [ref=e384]
+                                      - generic [ref=e386]:
+                                        - paragraph [ref=e388]: Deploy
+                                        - paragraph [ref=e389]:
+                                          - text: (
+                                          - time [ref=e390]: 00:06
+                                          - text: )
+                                    - generic [ref=e391]:
+                                      - generic [ref=e392]:
+                                        - img [ref=e394]
+                                        - generic [ref=e396]:
+                                          - paragraph [ref=e398]:
+                                            - text: Network
+                                            - generic [ref=e399]: › Healthcheck
+                                          - paragraph [ref=e400]:
+                                            - text: (
+                                            - time [ref=e401]: 00:53
+                                            - text: )
+                                      - paragraph [ref=e404]: Healthcheck failure
+                                    - generic [ref=e406]:
+                                      - img [ref=e408]
+                                      - generic [ref=e410]:
+                                        - paragraph [ref=e412]: Post-deploy
+                                        - paragraph [ref=e413]: Not started
+  - alertdialog "Redeploy deployment" [ref=e483]:
+    - heading "Redeploy deployment" [level=2] [ref=e484]
+    - generic [ref=e486]: Are you sure you want to redeploy this deployment? This will rebuild and deploy your code with the exact same configuration.
+    - contentinfo [ref=e487]:
+      - generic [ref=e488]:
+        - button "Cancel" [active] [ref=e489] [cursor=pointer]:
+          - generic [ref=e490]: Cancel
+        - button "Redeploy" [ref=e492] [cursor=pointer]:
+          - generic [ref=e494]: Redeploy

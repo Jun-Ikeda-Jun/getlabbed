@@ -1,0 +1,132 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Railway Logo" [ref=e7] [cursor=pointer]:
+          - /url: /dashboard
+          - img "Railway Logo" [ref=e9]
+        - button "jun-ikeda-jun's Projects Trial" [ref=e13] [cursor=pointer]:
+          - generic [ref=e14]:
+            - generic "jun-ikeda-jun's Projects" [ref=e16]
+            - generic [ref=e18]: jun-ikeda-jun's Projects
+            - generic [ref=e19]: Trial
+            - img [ref=e21]
+      - navigation [ref=e25]:
+        - link "Projects" [ref=e26] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e27]:
+            - img [ref=e29]
+            - generic [ref=e31]: Projects
+        - link "Templates" [ref=e32] [cursor=pointer]:
+          - /url: /workspace/templates
+          - generic [ref=e33]:
+            - img [ref=e35]
+            - generic [ref=e38]: Templates
+        - link "Usage" [ref=e40] [cursor=pointer]:
+          - /url: /workspace/usage
+          - generic [ref=e41]:
+            - img [ref=e43]
+            - generic [ref=e45]: Usage
+        - link "People" [ref=e46] [cursor=pointer]:
+          - /url: /workspace/people
+          - generic [ref=e47]:
+            - img [ref=e49]
+            - generic [ref=e53]: People
+        - button "Settings" [ref=e54] [cursor=pointer]:
+          - img [ref=e56]
+          - generic [ref=e58]:
+            - text: Settings
+            - img [ref=e60]
+        - generic [ref=e62]:
+          - link "General" [ref=e64] [cursor=pointer]:
+            - /url: /workspace
+            - generic [ref=e66]: General
+          - link "Plans" [ref=e67] [cursor=pointer]:
+            - /url: /workspace/plans
+            - generic [ref=e71]: Plans
+          - link "Billing" [ref=e72] [cursor=pointer]:
+            - /url: /workspace/billing
+            - generic [ref=e74]: Billing
+          - link "Domains" [ref=e75] [cursor=pointer]:
+            - /url: /workspace/domains
+            - generic [ref=e77]: Domains
+          - link "Audit Logs" [ref=e78] [cursor=pointer]:
+            - /url: /workspace/audit-logs
+            - generic [ref=e80]: Audit Logs
+          - link "Developer" [ref=e81] [cursor=pointer]:
+            - /url: /workspace/developer
+            - generic [ref=e83]: Developer
+          - link "Earnings" [ref=e84] [cursor=pointer]:
+            - /url: /workspace/earnings
+            - generic [ref=e86]: Earnings
+          - link "Referrals" [ref=e87] [cursor=pointer]:
+            - /url: /workspace/referrals
+            - generic [ref=e89]: Referrals
+      - generic [ref=e92]:
+        - link "Docs ↗" [ref=e93] [cursor=pointer]:
+          - /url: https://docs.railway.com
+          - generic [ref=e94]:
+            - img [ref=e97]
+            - generic [ref=e100]: Docs ↗
+        - link "Central Station ↗" [ref=e101] [cursor=pointer]:
+          - /url: https://station.railway.com
+          - generic [ref=e102]:
+            - img [ref=e105]
+            - generic [ref=e112]: Central Station ↗
+        - link "My support threads ↗" [ref=e113] [cursor=pointer]:
+          - /url: https://backboard.railway.com/csc/auth/login?redirect_uri=https%3A%2F%2Fstation-server.railway.com%2Fauth%2Fcallback%3FredirectTo%3D%252Fmy-threads
+          - generic [ref=e114]:
+            - img [ref=e117]
+            - generic [ref=e119]: My support threads ↗
+    - button "iamno11shane@gmail.com" [ref=e121] [cursor=pointer]:
+      - generic [ref=e122]:
+        - generic "iamno11shane@gmail.com" [ref=e123]
+        - paragraph [ref=e125]: iamno11shane@gmail.com
+        - img [ref=e127]
+    - button "Collapse sidebar" [ref=e131]
+  - generic [ref=e133]:
+    - banner [ref=e134]:
+      - generic [ref=e135]:
+        - button [ref=e136] [cursor=pointer]:
+          - img [ref=e139]
+        - button "30 days or $4.97 left" [ref=e142] [cursor=pointer]:
+          - paragraph [ref=e144]:
+            - generic [ref=e145]: 30 days or $4.97 left
+    - main [ref=e147]:
+      - generic [ref=e150]:
+        - complementary:
+          - generic [ref=e151]:
+            - heading "Settings" [level=2] [ref=e152]
+            - navigation [ref=e153]:
+              - link "General" [ref=e154] [cursor=pointer]:
+                - /url: /workspace
+                - img [ref=e157]
+                - text: General
+              - link "Plans" [ref=e159] [cursor=pointer]:
+                - /url: /workspace/plans
+                - img [ref=e162]
+                - text: Plans
+              - link "Billing" [ref=e165] [cursor=pointer]:
+                - /url: /workspace/billing
+                - img [ref=e168]
+                - text: Billing
+              - link "Domains" [ref=e170] [cursor=pointer]:
+                - /url: /workspace/domains
+                - img [ref=e173]
+                - text: Domains
+              - link "Audit Logs" [ref=e176] [cursor=pointer]:
+                - /url: /workspace/audit-logs
+                - img [ref=e179]
+                - text: Audit Logs
+              - link "Developer" [ref=e182] [cursor=pointer]:
+                - /url: /workspace/developer
+                - img [ref=e185]
+                - text: Developer
+              - link "Earnings" [ref=e187] [cursor=pointer]:
+                - /url: /workspace/earnings
+                - img [ref=e190]
+                - text: Earnings
+              - link "Referrals" [ref=e192] [cursor=pointer]:
+                - /url: /workspace/referrals
+                - img [ref=e195]
+                - text: Referrals
