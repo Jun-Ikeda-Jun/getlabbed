@@ -4,14 +4,23 @@
       "command": "npx",
       "args": [
         "@playwright/mcp@0.0.69",
-        "--browser", "chrome",
-        "--user-data-dir", "/Users/junikeda/.playwright-chrome-data-smash-coach",
-        "--viewport-size", "1280x720",
-        "--timeout-action", "30000",
-        "--timeout-navigation", "120000",
+        "--output-dir",
+        "/Users/junikeda/Desktop/ALL/_scratch/playwright/cowork_smash_coach",
+        "--browser",
+        "chrome",
+        "--user-data-dir",
+        "/Users/junikeda/.playwright-chrome-data-smash-coach",
+        "--viewport-size",
+        "1280x720",
+        "--timeout-action",
+        "30000",
+        "--timeout-navigation",
+        "120000",
         "--block-service-workers",
-        "--caps", "vision",
-        "--console-level", "error"
+        "--caps",
+        "vision",
+        "--console-level",
+        "error"
       ]
     }
   }
