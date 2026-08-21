@@ -39,7 +39,6 @@ export const MOCK_ANALYSIS: MatchAnalysis = {
       rating: "great",
       suggestion: null,
       practice_tip: null,
-      clip_gif: null,
     },
     {
       timestamp: 43,
@@ -49,7 +48,6 @@ export const MOCK_ANALYSIS: MatchAnalysis = {
       suggestion: "下投げ→空上のコンボルートを覚えよう",
       practice_tip:
         "トレモで掴み→下投げ→空上を低%・中%・高%で10回ずつ練習",
-      clip_gif: null,
     },
     {
       timestamp: 67,
@@ -57,7 +55,6 @@ export const MOCK_ANALYSIS: MatchAnalysis = {
       rating: "good",
       suggestion: null,
       practice_tip: null,
-      clip_gif: null,
     },
     {
       timestamp: 98,
@@ -68,7 +65,6 @@ export const MOCK_ANALYSIS: MatchAnalysis = {
         "崖上がりは毎回変えよう：その場、攻撃、回避、ジャンプの4択をランダムに",
       practice_tip:
         "崖上がりの練習：相手に崖待ちさせて、4種類をランダムに使い分ける。10回中同じ択が3回以上出ないように",
-      clip_gif: null,
     },
     {
       timestamp: 125,
@@ -78,7 +74,6 @@ export const MOCK_ANALYSIS: MatchAnalysis = {
       suggestion: "反転空後は練習あるのみ。引きながらジャンプ→空後の入力を意識",
       practice_tip:
         "トレモでマリオを相手に、引き空後を20回連続で出す練習。安定したら実戦で使おう",
-      clip_gif: null,
     },
     {
       timestamp: 156,
@@ -86,7 +81,6 @@ export const MOCK_ANALYSIS: MatchAnalysis = {
       rating: "good",
       suggestion: null,
       practice_tip: null,
-      clip_gif: null,
     },
     {
       timestamp: 178,
@@ -96,7 +90,6 @@ export const MOCK_ANALYSIS: MatchAnalysis = {
       suggestion:
         "マリオの復帰は上Bのルートが限られるから、崖で待つ方が安全。無理に外に出なくてOK",
       practice_tip: null,
-      clip_gif: null,
     },
     {
       timestamp: 210,
@@ -105,7 +98,6 @@ export const MOCK_ANALYSIS: MatchAnalysis = {
       rating: "great",
       suggestion: null,
       practice_tip: null,
-      clip_gif: null,
     },
     {
       timestamp: 245,
@@ -116,7 +108,6 @@ export const MOCK_ANALYSIS: MatchAnalysis = {
         "ガーキャン上スマはガード中に上スマ入力。ガードを解いてからだと遅い",
       practice_tip:
         "トレモでCPUの攻撃をガード→ガーキャン上スマを50回。反射的に出せるようになるまで",
-      clip_gif: null,
     },
     {
       timestamp: 289,
@@ -125,7 +116,6 @@ export const MOCK_ANALYSIS: MatchAnalysis = {
       rating: "good",
       suggestion: null,
       practice_tip: null,
-      clip_gif: null,
     },
   ],
   strengths: [
